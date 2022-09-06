@@ -39,6 +39,7 @@ custom:
     0.1.1: "description changed from 'Rankings, match-scores and labels for local\
       \ authorities based on physical data\n' to 'This comparison set shows councils\
       \ which are geographically close to the selected council.'"
+    1.0.0: lock data schema
 resources:
 - title: Local Authority Location Similarity
   description: "Dataset of distance calculations based on Location similarity\nThis\
@@ -183,6 +184,6 @@ resources:
       example: Local authorities in Northern Ireland
   hash: 4a9a852530c463a53f1a41e18e3aeb53
   download_id: physical-distance-label-desc
-full_version: 0.1.1
+full_version: 1.0.0
 permalink: /datasets/physical_distance/latest
 ---

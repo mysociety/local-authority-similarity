@@ -8,6 +8,10 @@ versions:
   - '0'
   - '0.1'
   - 0.1.1
+  1.0.0:
+  - '1'
+  - '1.0'
+  - 1.0.0
   - latest
 permalink: /datasets/ruc_distance/versions
 ---

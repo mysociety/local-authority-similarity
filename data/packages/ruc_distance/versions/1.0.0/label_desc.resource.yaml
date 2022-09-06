@@ -1,0 +1,38 @@
+title: Local authority rural-urban labels
+description: Map of short labels to longer descriptions for rural-urban categories.
+custom:
+  row_count: 4
+path: label_desc.csv
+name: label_desc
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: label
+    type: string
+    description: Short label for rural-urban profile.
+    constraints:
+      unique: true
+      enum:
+      - Sparse and rural
+      - Urban
+      - Rural
+      - Urban with rural areas
+    example: Sparse and rural
+  - name: desc
+    type: string
+    description: Longer description of rural-urban profile.
+    constraints:
+      unique: true
+      enum:
+      - Local authority predominately made up of large and low-density rural neighbourhoods
+      - Local authority predominately made up of urban neighbourhoods
+      - Local authority predominately made up of rural neighbourhoods
+      - Local authority mostly made up of urban neighbourhoods, but with a significant
+        number of rural neighbourhoods
+    example: Local authority predominately made up of large and low-density rural
+      neighbourhoods
+hash: 7279f4e02984868d00f7dd83dfdda036

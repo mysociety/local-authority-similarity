@@ -55,6 +55,7 @@ custom:
       \ and combined authorities are then slotted into based on their relative score.\
       \ \nThis UK-wide comparison is based on a [Composite Index of Multiple Deprivation](https://mysociety.github.io/composite_uk_imd)\
       \ system. \n'"
+    1.0.0: lock data schema
 resources:
 - title: Local Authority IMD Similarity
   description: "Dataset of distance calculations based on Composite UK IMD.\nThis\
@@ -179,6 +180,6 @@ resources:
       example: Councils in most deprived quintile (20%)
   hash: 38b888ff0ae31f6e3f03ccc9b0417440
   download_id: imd-distance-label-desc
-full_version: 0.1.1
+full_version: 1.0.0
 permalink: /datasets/imd_distance/latest
 ---

@@ -46,6 +46,7 @@ custom:
       \ The five different categories in the BEIS dataset are adjusted in different\
       \ ways, and then councils are positioned on how different they are to each other.\
       \ \n'"
+    1.0.0: lock data schema
 resources:
 - title: Local Authority Emissions Similarity
   description: "Dataset of distance calculations based on BEIS Emissions data.\nThis\
@@ -176,6 +177,6 @@ resources:
       example: Below average for all emissions scores
   hash: a48a0c1e2f901cf4622e1002eef715d7
   download_id: emissions-distance-label-desc
-full_version: 0.1.1
+full_version: 1.0.0
 permalink: /datasets/emissions_distance/latest
 ---

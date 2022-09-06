@@ -46,6 +46,7 @@ custom:
       \ population density is also used to help distinguish between authorities in\
       \ entirely urban areas. \nThis UK-wide comparison is based on a [Composite Rural\
       \ Urban Classification](https://mysociety.github.io/uk_ruc/) system. \n'"
+    1.0.0: lock data schema
 resources:
 - title: Local Authority RUC Similarity
   description: "Dataset of distance calculations based on RUC data.\nThis distance\
@@ -168,6 +169,6 @@ resources:
         neighbourhoods
   hash: 7279f4e02984868d00f7dd83dfdda036
   download_id: ruc-distance-label-desc
-full_version: 0.1.1
+full_version: 1.0.0
 permalink: /datasets/ruc_distance/latest
 ---

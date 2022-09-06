@@ -42,6 +42,7 @@ custom:
       \ set combines all the other measures into a single list of similar councils.\n\
       Councils may be highly rated because they are very similar in one degree, or\
       \ because they are slightly similar across several.\n'"
+    1.0.0: lock data schema
 resources:
 - title: Local Authority Composite Similarity
   description: "Dataset of distance calculations based on other measures of distance\
@@ -150,6 +151,6 @@ resources:
         Local authority predominately made up of large and low-density rural neighbourhoods
   hash: 4afe995b8f68a4ee6e7e489b426ad48a
   download_id: composite-distance-label-desc
-full_version: 0.1.1
+full_version: 1.0.0
 permalink: /datasets/composite_distance/latest
 ---
