@@ -1,5 +1,5 @@
 ---
-title: "Download template_data_repo"
+title: "Download local_authority_similarity"
 layout: datasets/front
 ---
 

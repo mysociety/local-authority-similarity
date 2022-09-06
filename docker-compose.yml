@@ -1,9 +1,9 @@
 services:
   app:
-    image: mysociety/template_data_repo:${TAG:-latest}
+    image: mysociety/local-authority-similarity:${TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile.dev
-    working_dir: /workspaces/template_data_repo      
+    working_dir: /workspaces/local_authority_similarity      
     volumes:
-      - ./:/workspaces/template_data_repo/
+      - ./:/workspaces/local_authority_similarity/

@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
-title: template_data_repo
-description: Standardised template for mysociety data repositories
+title: local-authority-similarity
+description: Distance calculations and composite measure for local authorities
 
-baseurl: "/template_data_repo"
+baseurl: "/local-authority-similarity"
 url: "https://mysociety.github.io"
 
 collections:

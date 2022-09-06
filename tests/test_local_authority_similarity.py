@@ -1,4 +1,4 @@
-import template_data_repo
+import local_authority_similarity
 
 import pytest
 
