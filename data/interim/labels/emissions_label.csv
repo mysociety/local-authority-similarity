@@ -1,0 +1,410 @@
+local-authority-code,label,desc,type
+GLA,Urban Mainstream,Below average for all emissions scores,imd
+WMCA,Urban Mainstream,Below average for all emissions scores,imd
+GMCA,Urban Mainstream,Below average for all emissions scores,imd
+WYCA,Urban Mainstream,Below average for all emissions scores,imd
+KEN,Urban Mainstream,Below average for all emissions scores,imd
+LCR,Urban Mainstream,Below average for all emissions scores,imd
+CPCA,Urban Mainstream,Below average for all emissions scores,imd
+ESS,Transport/Domestic,Above average transport/domestic score,imd
+SCR,Urban Mainstream,Below average for all emissions scores,imd
+HAM,Transport/Domestic,Above average transport/domestic score,imd
+LAN,Transport/Domestic,Above average transport/domestic score,imd
+SRY,Transport/Domestic,Above average transport/domestic score,imd
+HRT,Urban Mainstream,Below average for all emissions scores,imd
+NECA,Transport/Domestic,Above average transport/domestic score,imd
+BIR,Urban Mainstream,Below average for all emissions scores,imd
+WECA,Urban Mainstream,Below average for all emissions scores,imd
+NFK,Transport/Domestic,Above average transport/domestic score,imd
+STS,Transport/Domestic,Above average transport/domestic score,imd
+WSX,Transport/Domestic,Above average transport/domestic score,imd
+NTCA,Transport/Domestic,Above average transport/domestic score,imd
+NTT,Transport/Domestic,Above average transport/domestic score,imd
+DEV,Transport/Domestic,Above average transport/domestic score,imd
+DBY,Transport/Domestic,Above average transport/domestic score,imd
+LDS,Urban Mainstream,Below average for all emissions scores,imd
+LIN,Transport/Domestic,Above average transport/domestic score,imd
+SFK,Transport/Domestic,Above average transport/domestic score,imd
+LEC,Transport/Domestic,Above average transport/domestic score,imd
+OXF,Transport/Domestic,Above average transport/domestic score,imd
+TVCA,Transport/Domestic,Above average transport/domestic score,imd
+CAM,Transport/Domestic,Above average transport/domestic score,imd
+GLS,Transport/Domestic,Above average transport/domestic score,imd
+GLG,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+NYK,Transport/Domestic,Above average transport/domestic score,imd
+WOR,Transport/Domestic,Above average transport/domestic score,imd
+SHF,Urban Mainstream,Below average for all emissions scores,imd
+WAR,Transport/Domestic,Above average transport/domestic score,imd
+CON,Transport/Domestic,Above average transport/domestic score,imd
+SOM,Transport/Domestic,Above average transport/domestic score,imd
+ESX,Transport/Domestic,Above average transport/domestic score,imd
+MAN,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+BUC,Transport/Domestic,Above average transport/domestic score,imd
+BRD,Urban Mainstream,Below average for all emissions scores,imd
+DUR,Transport/Domestic,Above average transport/domestic score,imd
+EDH,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+WIL,Transport/Domestic,Above average transport/domestic score,imd
+LIV,Urban Mainstream,Below average for all emissions scores,imd
+CMA,Agriculture,"Above average agriculture, domestic score",imd
+BST,Urban Mainstream,Below average for all emissions scores,imd
+KIR,Urban Mainstream,Below average for all emissions scores,imd
+WNT,Transport/Domestic,Above average transport/domestic score,imd
+BNE,Urban Mainstream,Below average for all emissions scores,imd
+BPC,Urban Mainstream,Below average for all emissions scores,imd
+CRY,Urban Mainstream,Below average for all emissions scores,imd
+CHE,Transport/Domestic,Above average transport/domestic score,imd
+DST,Transport/Domestic,Above average transport/domestic score,imd
+COV,Urban Mainstream,Below average for all emissions scores,imd
+FIF,Transport/Domestic,Above average transport/domestic score,imd
+CRF,Urban Mainstream,Below average for all emissions scores,imd
+NWM,Urban Mainstream,Below average for all emissions scores,imd
+LCE,Urban Mainstream,Below average for all emissions scores,imd
+WKF,Urban Mainstream,Below average for all emissions scores,imd
+NNT,Transport/Domestic,Above average transport/domestic score,imd
+CHW,Transport/Domestic,Above average transport/domestic score,imd
+ERY,Transport/Domestic,Above average transport/domestic score,imd
+BFS,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+NLK,Urban Mainstream,Below average for all emissions scores,imd
+EAL,Urban Mainstream,Below average for all emissions scores,imd
+NGM,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+ENF,Urban Mainstream,Below average for all emissions scores,imd
+BRY,Urban Mainstream,Below average for all emissions scores,imd
+TWH,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+WGN,Urban Mainstream,Below average for all emissions scores,imd
+WND,Urban Mainstream,Below average for all emissions scores,imd
+SAW,Urban Mainstream,Below average for all emissions scores,imd
+BEN,Urban Mainstream,Below average for all emissions scores,imd
+SHR,Agriculture,"Above average agriculture, domestic score",imd
+WRL,Urban Mainstream,Below average for all emissions scores,imd
+NBL,Agriculture,"Above average agriculture, domestic score",imd
+DUD,Urban Mainstream,Below average for all emissions scores,imd
+LBH,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+SLK,Urban Mainstream,Below average for all emissions scores,imd
+SWK,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+DNC,Urban Mainstream,Below average for all emissions scores,imd
+HIL,Urban Mainstream,Below average for all emissions scores,imd
+NET,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+RDB,Urban Mainstream,Below average for all emissions scores,imd
+LEW,Urban Mainstream,Below average for all emissions scores,imd
+SKP,Urban Mainstream,Below average for all emissions scores,imd
+CBF,Urban Mainstream,Below average for all emissions scores,imd
+BNH,Urban Mainstream,Below average for all emissions scores,imd
+GRE,Urban Mainstream,Below average for all emissions scores,imd
+BOL,Urban Mainstream,Below average for all emissions scores,imd
+SGC,Urban Mainstream,Below average for all emissions scores,imd
+WLL,Urban Mainstream,Below average for all emissions scores,imd
+HCK,Urban Mainstream,Below average for all emissions scores,imd
+CMD,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+MDW,Urban Mainstream,Below average for all emissions scores,imd
+SND,Urban Mainstream,Below average for all emissions scores,imd
+WFT,Urban Mainstream,Below average for all emissions scores,imd
+SFT,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+HNS,Urban Mainstream,Below average for all emissions scores,imd
+MIK,Urban Mainstream,Below average for all emissions scores,imd
+WSM,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+HRY,Urban Mainstream,Below average for all emissions scores,imd
+ROT,Urban Mainstream,Below average for all emissions scores,imd
+WLV,Urban Mainstream,Below average for all emissions scores,imd
+PLY,Urban Mainstream,Below average for all emissions scores,imd
+SLF,Urban Mainstream,Below average for all emissions scores,imd
+ABD,Agriculture,"Above average agriculture, domestic score",imd
+HAV,Urban Mainstream,Below average for all emissions scores,imd
+KHL,Urban Mainstream,Below average for all emissions scores,imd
+DER,Urban Mainstream,Below average for all emissions scores,imd
+STE,Urban Mainstream,Below average for all emissions scores,imd
+STH,Urban Mainstream,Below average for all emissions scores,imd
+HRW,Urban Mainstream,Below average for all emissions scores,imd
+ESK,Transport/Domestic,Above average transport/domestic score,imd
+BEX,Urban Mainstream,Below average for all emissions scores,imd
+ISL,Urban Mainstream,Below average for all emissions scores,imd
+BNS,Urban Mainstream,Below average for all emissions scores,imd
+SWA,Urban Mainstream,Below average for all emissions scores,imd
+RCT,Transport/Domestic,Above average transport/domestic score,imd
+OLD,Urban Mainstream,Below average for all emissions scores,imd
+TRF,Urban Mainstream,Below average for all emissions scores,imd
+HLD,Agriculture,"Above average agriculture, domestic score",imd
+ABE,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+TAM,Urban Mainstream,Below average for all emissions scores,imd
+RCH,Urban Mainstream,Below average for all emissions scores,imd
+SWD,Urban Mainstream,Below average for all emissions scores,imd
+SOL,Urban Mainstream,Below average for all emissions scores,imd
+ABC,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+NSM,Urban Mainstream,Below average for all emissions scores,imd
+POR,Urban Mainstream,Below average for all emissions scores,imd
+BDG,Urban Mainstream,Below average for all emissions scores,imd
+LUT,Urban Mainstream,Below average for all emissions scores,imd
+CLD,Urban Mainstream,Below average for all emissions scores,imd
+YOR,Urban Mainstream,Below average for all emissions scores,imd
+WRT,Urban Mainstream,Below average for all emissions scores,imd
+NTY,Urban Mainstream,Below average for all emissions scores,imd
+STN,Urban Mainstream,Below average for all emissions scores,imd
+MRT,Urban Mainstream,Below average for all emissions scores,imd
+PTE,Transport/Domestic,Above average transport/domestic score,imd
+GAT,Transport/Domestic,Above average transport/domestic score,imd
+RIC,Urban Mainstream,Below average for all emissions scores,imd
+STT,Transport/Domestic,Above average transport/domestic score,imd
+COL,Urban Mainstream,Below average for all emissions scores,imd
+BAS,Urban Mainstream,Below average for all emissions scores,imd
+HEF,Agriculture,"Above average agriculture, domestic score",imd
+BUR,Urban Mainstream,Below average for all emissions scores,imd
+CMN,Agriculture,"Above average agriculture, domestic score",imd
+CHA,Urban Mainstream,Below average for all emissions scores,imd
+BAI,Urban Mainstream,Below average for all emissions scores,imd
+WLN,Urban Mainstream,Below average for all emissions scores,imd
+HMF,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+SOS,Urban Mainstream,Below average for all emissions scores,imd
+CAY,Transport/Domestic,Above average transport/domestic score,imd
+NMD,Agriculture,"Above average agriculture, domestic score",imd
+TFW,Urban Mainstream,Below average for all emissions scores,imd
+SHN,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+NEW,Transport/Domestic,Above average transport/domestic score,imd
+CHL,Transport/Domestic,Above average transport/domestic score,imd
+RFW,Urban Mainstream,Below average for all emissions scores,imd
+KTT,Urban Mainstream,Below average for all emissions scores,imd
+HUN,Transport/Domestic,Above average transport/domestic score,imd
+BAN,Transport/Domestic,Above average transport/domestic score,imd
+WSK,Transport/Domestic,Above average transport/domestic score,imd
+THR,Transport/Domestic,Above average transport/domestic score,imd
+BDF,Urban Mainstream,Below average for all emissions scores,imd
+WOK,Urban Mainstream,Below average for all emissions scores,imd
+MAI,Urban Mainstream,Below average for all emissions scores,imd
+NLN,Transport/Domestic,Above average transport/domestic score,imd
+SSO,Transport/Domestic,Above average transport/domestic score,imd
+CAT,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+WEA,Transport/Domestic,Above average transport/domestic score,imd
+AND,Agriculture,"Above average agriculture, domestic score",imd
+HAG,Transport/Domestic,Above average transport/domestic score,imd
+ARU,Urban Mainstream,Below average for all emissions scores,imd
+SCA,Transport/Domestic,Above average transport/domestic score,imd
+FAL,Urban Mainstream,Below average for all emissions scores,imd
+RDG,Urban Mainstream,Below average for all emissions scores,imd
+NEL,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+WBK,Transport/Domestic,Above average transport/domestic score,imd
+KEC,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+FLN,Transport/Domestic,Above average transport/domestic score,imd
+NWP,Transport/Domestic,Above average transport/domestic score,imd
+DAC,Urban Mainstream,Below average for all emissions scores,imd
+SWT,Transport/Domestic,Above average transport/domestic score,imd
+BRA,Transport/Domestic,Above average transport/domestic score,imd
+KWL,Transport/Domestic,Above average transport/domestic score,imd
+MSS,Transport/Domestic,Above average transport/domestic score,imd
+PKN,Transport/Domestic,Above average transport/domestic score,imd
+CHR,Transport/Domestic,Above average transport/domestic score,imd
+EHE,Transport/Domestic,Above average transport/domestic score,imd
+OXO,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+WNM,Transport/Domestic,Above average transport/domestic score,imd
+KIN,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+STY,Urban Mainstream,Below average for all emissions scores,imd
+DRS,Agriculture,"Above average agriculture, domestic score",imd
+SWL,Urban Mainstream,Below average for all emissions scores,imd
+GRT,Transport/Domestic,Above average transport/domestic score,imd
+BBD,Urban Mainstream,Below average for all emissions scores,imd
+SLG,Urban Mainstream,Below average for all emissions scores,imd
+SAL,Urban Mainstream,Below average for all emissions scores,imd
+REI,Urban Mainstream,Below average for all emissions scores,imd
+MUL,Agriculture,"Above average agriculture, domestic score",imd
+DND,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+DGY,Agriculture,"Above average agriculture, domestic score",imd
+LAC,Urban Mainstream,Below average for all emissions scores,imd
+EDE,Transport/Domestic,Above average transport/domestic score,imd
+BGE,Transport/Domestic,Above average transport/domestic score,imd
+TEN,Transport/Domestic,Above average transport/domestic score,imd
+LBC,Transport/Domestic,Above average transport/domestic score,imd
+HOR,Transport/Domestic,Above average transport/domestic score,imd
+CCG,Agriculture,"Above average agriculture, domestic score",imd
+WAW,Transport/Domestic,Above average transport/domestic score,imd
+NTL,Transport/Domestic,Above average transport/domestic score,imd
+PRE,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+SOX,Transport/Domestic,Above average transport/domestic score,imd
+ANN,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+SKE,Transport/Domestic,Above average transport/domestic score,imd
+SNO,Transport/Domestic,Above average transport/domestic score,imd
+IOW,Urban Mainstream,Below average for all emissions scores,imd
+NOW,Urban Mainstream,Below average for all emissions scores,imd
+ELI,Transport/Domestic,Above average transport/domestic score,imd
+THA,Agriculture,"Above average agriculture, domestic score",imd
+MDB,Transport/Domestic,Above average transport/domestic score,imd
+BRE,Transport/Domestic,Above average transport/domestic score,imd
+MEA,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+BPL,Urban Mainstream,Below average for all emissions scores,imd
+VAL,Transport/Domestic,Above average transport/domestic score,imd
+STA,Transport/Domestic,Above average transport/domestic score,imd
+RCC,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+ELM,Transport/Domestic,Above average transport/domestic score,imd
+TOB,Urban Mainstream,Below average for all emissions scores,imd
+WRX,Agriculture,"Above average agriculture, domestic score",imd
+IPS,Urban Mainstream,Below average for all emissions scores,imd
+EAT,Urban Mainstream,Below average for all emissions scores,imd
+VGL,Transport/Domestic,Above average transport/domestic score,imd
+TEI,Transport/Domestic,Above average transport/domestic score,imd
+NAY,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+NHE,Transport/Domestic,Above average transport/domestic score,imd
+EXE,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+POW,Agriculture,"Above average agriculture, domestic score",imd
+TON,Urban Mainstream,Below average for all emissions scores,imd
+STR,Transport/Domestic,Above average transport/domestic score,imd
+EPP,Transport/Domestic,Above average transport/domestic score,imd
+BRO,Transport/Domestic,Above average transport/domestic score,imd
+WYC,Transport/Domestic,Above average transport/domestic score,imd
+ASF,Urban Mainstream,Below average for all emissions scores,imd
+NUN,Urban Mainstream,Below average for all emissions scores,imd
+HAL,Urban Mainstream,Below average for all emissions scores,imd
+GLO,Urban Mainstream,Below average for all emissions scores,imd
+NEC,Transport/Domestic,Above average transport/domestic score,imd
+AMB,Transport/Domestic,Above average transport/domestic score,imd
+ASH,Urban Mainstream,Below average for all emissions scores,imd
+TES,Transport/Domestic,Above average transport/domestic score,imd
+PEM,Agriculture,"Above average agriculture, domestic score",imd
+WAE,Transport/Domestic,Above average transport/domestic score,imd
+HAA,Urban Mainstream,Below average for all emissions scores,imd
+WIN,Transport/Domestic,Above average transport/domestic score,imd
+GWN,Transport/Domestic,Above average transport/domestic score,imd
+CAB,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+BRC,Urban Mainstream,Below average for all emissions scores,imd
+WEW,Urban Mainstream,Below average for all emissions scores,imd
+EHA,Transport/Domestic,Above average transport/domestic score,imd
+SEG,Transport/Domestic,Above average transport/domestic score,imd
+NEA,Transport/Domestic,Above average transport/domestic score,imd
+EAY,Agriculture,"Above average agriculture, domestic score",imd
+CHI,Transport/Domestic,Above average transport/domestic score,imd
+RUS,Transport/Domestic,Above average transport/domestic score,imd
+SEV,Transport/Domestic,Above average transport/domestic score,imd
+EST,Transport/Domestic,Above average transport/domestic score,imd
+STO,Transport/Domestic,Above average transport/domestic score,imd
+TUN,Urban Mainstream,Below average for all emissions scores,imd
+CHO,Urban Mainstream,Below average for all emissions scores,imd
+DOV,Urban Mainstream,Below average for all emissions scores,imd
+BAE,Transport/Domestic,Above average transport/domestic score,imd
+GED,Urban Mainstream,Below average for all emissions scores,imd
+CWY,Transport/Domestic,Above average transport/domestic score,imd
+NKE,Transport/Domestic,Above average transport/domestic score,imd
+FMO,Agriculture,"Above average agriculture, domestic score",imd
+FAR,Urban Mainstream,Below average for all emissions scores,imd
+MEN,Transport/Domestic,Above average transport/domestic score,imd
+CHT,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+ANS,Transport/Domestic,Above average transport/domestic score,imd
+ERE,Urban Mainstream,Below average for all emissions scores,imd
+SCB,Agriculture,"Above average agriculture, domestic score",imd
+BRT,Urban Mainstream,Below average for all emissions scores,imd
+WLA,Transport/Domestic,Above average transport/domestic score,imd
+DAR,Urban Mainstream,Below average for all emissions scores,imd
+HIN,Transport/Domestic,Above average transport/domestic score,imd
+SHE,Urban Mainstream,Below average for all emissions scores,imd
+WYR,Transport/Domestic,Above average transport/domestic score,imd
+CRW,Urban Mainstream,Below average for all emissions scores,imd
+SST,Transport/Domestic,Above average transport/domestic score,imd
+SAY,Transport/Domestic,Above average transport/domestic score,imd
+WOX,Transport/Domestic,Above average transport/domestic score,imd
+SRI,Transport/Domestic,Above average transport/domestic score,imd
+WOT,Urban Mainstream,Below average for all emissions scores,imd
+RUG,Transport/Domestic,Above average transport/domestic score,imd
+SDE,Transport/Domestic,Above average transport/domestic score,imd
+MAS,Urban Mainstream,Below average for all emissions scores,imd
+EDU,Urban Mainstream,Below average for all emissions scores,imd
+SCE,Transport/Domestic,Above average transport/domestic score,imd
+CAR,Transport/Domestic,Above average transport/domestic score,imd
+ELN,Transport/Domestic,Above average transport/domestic score,imd
+DAL,Transport/Domestic,Above average transport/domestic score,imd
+GRA,Urban Mainstream,Below average for all emissions scores,imd
+LIF,Transport/Domestic,Above average transport/domestic score,imd
+HER,Urban Mainstream,Below average for all emissions scores,imd
+NNO,Transport/Domestic,Above average transport/domestic score,imd
+CHS,Urban Mainstream,Below average for all emissions scores,imd
+SLA,Agriculture,"Above average agriculture, domestic score",imd
+MSU,Transport/Domestic,Above average transport/domestic score,imd
+NWL,Transport/Domestic,Above average transport/domestic score,imd
+LEE,Transport/Domestic,Above average transport/domestic score,imd
+EAS,Urban Mainstream,Below average for all emissions scores,imd
+NED,Transport/Domestic,Above average transport/domestic score,imd
+FEN,Transport/Domestic,Above average transport/domestic score,imd
+BLA,Urban Mainstream,Below average for all emissions scores,imd
+CAN,Urban Mainstream,Below average for all emissions scores,imd
+WYE,Urban Mainstream,Below average for all emissions scores,imd
+BRM,Transport/Domestic,Above average transport/domestic score,imd
+WOC,Urban Mainstream,Below average for all emissions scores,imd
+LIC,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+WOI,Urban Mainstream,Below average for all emissions scores,imd
+SPE,Urban Mainstream,Below average for all emissions scores,imd
+GRY,Urban Mainstream,Below average for all emissions scores,imd
+STF,Agriculture,"Above average agriculture, domestic score",imd
+NDE,Agriculture,"Above average agriculture, domestic score",imd
+ALL,Agriculture,"Above average agriculture, domestic score",imd
+HAT,Urban Mainstream,Below average for all emissions scores,imd
+BRX,Urban Mainstream,Below average for all emissions scores,imd
+ROH,Transport/Domestic,Above average transport/domestic score,imd
+DEN,Transport/Domestic,Above average transport/domestic score,imd
+TEW,Transport/Domestic,Above average transport/domestic score,imd
+WAT,Urban Mainstream,Below average for all emissions scores,imd
+WLI,Transport/Domestic,Above average transport/domestic score,imd
+ERW,Urban Mainstream,Below average for all emissions scores,imd
+SHO,Transport/Domestic,Above average transport/domestic score,imd
+MRY,Agriculture,"Above average agriculture, domestic score",imd
+HAO,Transport/Domestic,Above average transport/domestic score,imd
+MON,Agriculture,"Above average agriculture, domestic score",imd
+TOF,Transport/Domestic,Above average transport/domestic score,imd
+RUH,Urban Mainstream,Below average for all emissions scores,imd
+STG,Transport/Domestic,Above average transport/domestic score,imd
+THE,Urban Mainstream,Below average for all emissions scores,imd
+HPL,Transport/Domestic,Above average transport/domestic score,imd
+MLN,Transport/Domestic,Above average transport/domestic score,imd
+UTT,Transport/Domestic,Above average transport/domestic score,imd
+BAB,Transport/Domestic,Above average transport/domestic score,imd
+HIG,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+HAS,Urban Mainstream,Below average for all emissions scores,imd
+PEN,Transport/Domestic,Above average transport/domestic score,imd
+HAE,Agriculture,"Above average agriculture, domestic score",imd
+SEL,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+CAS,Urban Mainstream,Below average for all emissions scores,imd
+RUN,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+COT,Transport/Domestic,Above average transport/domestic score,imd
+ECA,Transport/Domestic,Above average transport/domestic score,imd
+BUN,Urban Mainstream,Below average for all emissions scores,imd
+SUR,Transport/Domestic,Above average transport/domestic score,imd
+TAN,Transport/Domestic,Above average transport/domestic score,imd
+WDU,Public sector,"Well above average public sector (government, education, health), below average in other areas.",imd
+STV,Urban Mainstream,Below average for all emissions scores,imd
+SHA,Transport/Domestic,Above average transport/domestic score,imd
+ROC,Urban Mainstream,Below average for all emissions scores,imd
+MOL,Transport/Domestic,Above average transport/domestic score,imd
+HAR,Urban Mainstream,Below average for all emissions scores,imd
+FOE,Transport/Domestic,Above average transport/domestic score,imd
+RED,Urban Mainstream,Below average for all emissions scores,imd
+AGB,Agriculture,"Above average agriculture, domestic score",imd
+GOS,Urban Mainstream,Below average for all emissions scores,imd
+MDE,Agriculture,"Above average agriculture, domestic score",imd
+BOS,Transport/Domestic,Above average transport/domestic score,imd
+FYL,Transport/Domestic,Above average transport/domestic score,imd
+HYN,Transport/Domestic,Above average transport/domestic score,imd
+EPS,Urban Mainstream,Below average for all emissions scores,imd
+MAV,Transport/Domestic,Above average transport/domestic score,imd
+BRW,Transport/Domestic,Above average transport/domestic score,imd
+IVC,Transport/Domestic,Above average transport/domestic score,imd
+TAW,Urban Mainstream,Below average for all emissions scores,imd
+CGN,Agriculture,"Above average agriculture, domestic score",imd
+DEB,Agriculture,"Above average agriculture, domestic score",imd
+ROS,Transport/Domestic,Above average transport/domestic score,imd
+BOT,Transport/Domestic,Above average transport/domestic score,imd
+AGY,Agriculture,"Above average agriculture, domestic score",imd
+BGW,Transport/Domestic,Above average transport/domestic score,imd
+TOR,Agriculture,"Above average agriculture, domestic score",imd
+COP,Transport/Domestic,Above average transport/domestic score,imd
+BAR,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+NWA,Transport/Domestic,Above average transport/domestic score,imd
+MAL,Transport/Domestic,Above average transport/domestic score,imd
+ADU,Urban Mainstream,Below average for all emissions scores,imd
+RIB,Agriculture,"Above average agriculture, domestic score",imd
+MTY,Urban Mainstream,Below average for all emissions scores,imd
+CRA,Agriculture,"Above average agriculture, domestic score",imd
+OAD,Urban Mainstream,Below average for all emissions scores,imd
+WDE,Agriculture,"Above average agriculture, domestic score",imd
+RYE,Agriculture,"Above average agriculture, domestic score",imd
+EDN,Agriculture,"Above average agriculture, domestic score",imd
+RIH,Agriculture,"Above average agriculture, domestic score",imd
+MEL,Transport/Domestic,Above average transport/domestic score,imd
+CLK,Industry/Commerical/Domestic,"Above average for industry/domestic/doemestic, below average public sector emissions.",imd
+RUT,Transport/Domestic,Above average transport/domestic score,imd
+ELS,Agriculture,"Above average agriculture, domestic score",imd
+ZET,Agriculture,"Above average agriculture, domestic score",imd
+ORK,Agriculture,"Above average agriculture, domestic score",imd
+LND,City of London,City of London does not have a comparable emissions profile,imd
+IOS,Urban Mainstream,Below average for all emissions scores,imd

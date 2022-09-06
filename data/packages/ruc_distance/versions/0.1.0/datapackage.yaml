@@ -1,0 +1,37 @@
+name: ruc_distance
+title: Local authority RUC distance
+description: "Rankings, match-scores and labels for local authorities based on compoiste\
+  \ rural urban classifcation data emissions data\n"
+version: 0.1.0
+licenses:
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
+contributors:
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+custom:
+  build: local_authority_similarity.__main__:build_ruc
+  tests:
+  - test_emissions_distance
+  dataset_order: 0
+  download_options:
+    gate: default
+    survey: default
+    header_text: default
+  composite:
+    xlsx:
+      include: all
+      exclude: none
+      render: true
+    sqlite:
+      include: all
+      exclude: none
+      render: true
+    json:
+      include: all
+      exclude: none
+      render: true
+  change_log:
+    0.1.0: Initial load of data
