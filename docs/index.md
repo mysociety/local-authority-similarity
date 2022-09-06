@@ -1,8 +1,6 @@
 ---
-title: "Download local_authority_similarity"
+title: "Download Local Authority Similarity datasets"
 layout: datasets/front
 ---
 
-# Dataset download site title
-
-Here is some text underneath that.
+Distance calculations and composite measure for local authorities

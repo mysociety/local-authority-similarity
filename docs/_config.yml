@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-title: local-authority-similarity
+title: Local Authority Similarity
 description: Distance calculations and composite measure for local authorities
 
 baseurl: "/local-authority-similarity"
