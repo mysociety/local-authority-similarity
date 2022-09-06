@@ -1,8 +1,8 @@
 {
     "name": "physical_distance",
     "title": "Local authority physical distance",
-    "description": "Rankings, match-scores and labels for local authorities based on physical data\n",
-    "version": "0.1.0",
+    "description": "This comparison set shows councils which are geographically close to the selected council.",
+    "version": "0.1.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -46,7 +46,8 @@
             }
         },
         "change_log": {
-            "0.1.0": "Initial load of data"
+            "0.1.0": "Initial load of data",
+            "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on physical data\n' to 'This comparison set shows councils which are geographically close to the selected council.'"
         }
     },
     "resources": [

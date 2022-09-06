@@ -1,8 +1,9 @@
 ---
 name: composite_distance
 title: Local authority composite distance
-description: "Rankings, match-scores and labels for local authorities based on a composite\
-  \ of our other measures\n"
+description: "This comparison set combines all the other measures into a single list\
+  \ of similar councils.\nCouncils may be highly rated because they are very similar\
+  \ in one degree, or because they are slightly similar across several.\n"
 version: latest
 licenses:
 - name: CC-BY-4.0
@@ -36,6 +37,11 @@ custom:
       render: true
   change_log:
     0.1.0: Initial load of data
+    0.1.1: "description changed from 'Rankings, match-scores and labels for local\
+      \ authorities based on a composite of our other measures\n' to 'This comparison\
+      \ set combines all the other measures into a single list of similar councils.\n\
+      Councils may be highly rated because they are very similar in one degree, or\
+      \ because they are slightly similar across several.\n'"
 resources:
 - title: Local Authority Composite Similarity
   description: "Dataset of distance calculations based on other measures of distance\
@@ -144,6 +150,6 @@ resources:
         Local authority predominately made up of large and low-density rural neighbourhoods
   hash: 4afe995b8f68a4ee6e7e489b426ad48a
   download_id: composite-distance-label-desc
-full_version: 0.1.0
+full_version: 0.1.1
 permalink: /datasets/composite_distance/latest
 ---

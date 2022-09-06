@@ -1,0 +1,33 @@
+title: Local authority emissions profile labels
+description: A short category based on emissions profile for each local authority
+custom:
+  row_count: 409
+path: la_labels.csv
+name: la_labels
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: local-authority-code
+    type: string
+    description: 3/4 letter local authority code.
+    constraints:
+      unique: true
+    example: GLA
+  - name: label
+    type: string
+    description: Label to describe emissions profile of authority.
+    constraints:
+      unique: false
+      enum:
+      - Urban Mainstream
+      - Transport/Domestic
+      - Public sector
+      - Agriculture
+      - Industry/Commerical/Domestic
+      - City of London
+    example: Urban Mainstream
+hash: 97b49d2f5375d9f44c858648fe648483

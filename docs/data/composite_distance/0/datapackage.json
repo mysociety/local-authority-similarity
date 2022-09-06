@@ -1,8 +1,8 @@
 {
     "name": "composite_distance",
     "title": "Local authority composite distance",
-    "description": "Rankings, match-scores and labels for local authorities based on a composite of our other measures\n",
-    "version": "0.1.0",
+    "description": "This comparison set combines all the other measures into a single list of similar councils.\nCouncils may be highly rated because they are very similar in one degree, or because they are slightly similar across several.\n",
+    "version": "0.1.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -46,7 +46,8 @@
             }
         },
         "change_log": {
-            "0.1.0": "Initial load of data"
+            "0.1.0": "Initial load of data",
+            "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on a composite of our other measures\n' to 'This comparison set combines all the other measures into a single list of similar councils.\nCouncils may be highly rated because they are very similar in one degree, or because they are slightly similar across several.\n'"
         }
     },
     "resources": [
