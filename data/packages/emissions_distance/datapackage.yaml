@@ -1,7 +1,8 @@
 name: emissions_distance
 title: Local authority emissions distance
-description: "Rankings, match-scores and labels for local authorities based on BEIS\
-  \ 2020 emissions data\n"
+description: |
+  This comparison set shows councils who have a similar emissions profile to each other. 
+  The goal is to try and draw comparisons between similar emissions in similar circumstances. The five different categories in the BEIS dataset are adjusted in different ways, and then councils are positioned on how different they are to each other. 
 version: 0.1.0
 licenses:
 - name: CC-BY-4.0

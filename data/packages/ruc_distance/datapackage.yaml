@@ -1,7 +1,8 @@
 name: ruc_distance
 title: Local authority RUC distance
-description: "Rankings, match-scores and labels for local authorities based on compoiste\
-  \ rural urban classifcation data emissions data\n"
+description: |
+  The similarity between authorities is calculated by the proportion of the population living in urban, rural, and highly rural neighbourhoods. The population density is also used to help distinguish between authorities in entirely urban areas. 
+  This UK-wide comparison is based on a [Composite Rural Urban Classification](https://mysociety.github.io/uk_ruc/) system. 
 version: 0.1.0
 licenses:
 - name: CC-BY-4.0
