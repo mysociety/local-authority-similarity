@@ -5,6 +5,6 @@ package: composite_distance
 title: composite_distance_xlsx
 filename: composite_distance.xlsx
 version: latest
-full_version: latest
+full_version: 1.0.0
 file: /data/composite_distance/latest/composite_distance.xlsx
 ---
