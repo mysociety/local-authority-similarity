@@ -1,0 +1,213 @@
+{
+    "name": "ruc_distance",
+    "title": "Local authority RUC distance",
+    "description": "The similarity between authorities is calculated by the proportion of the population living in urban, rural, and highly rural neighbourhoods. The population density is also used to help distinguish between authorities in entirely urban areas. \nThis UK-wide comparison is based on a [Composite Rural Urban Classification](https://mysociety.github.io/uk_ruc/) system. \n",
+    "version": "1.1.0-futurecouncils",
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0 International License"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "mySociety",
+            "path": "https://mysociety.org",
+            "role": "author"
+        }
+    ],
+    "custom": {
+        "build": "local_authority_similarity.__main__:build_ruc",
+        "tests": [
+            "test_emissions_distance"
+        ],
+        "dataset_order": 0,
+        "download_options": {
+            "gate": "default",
+            "survey": "default",
+            "header_text": "default"
+        },
+        "composite": {
+            "xlsx": {
+                "include": "all",
+                "exclude": "none",
+                "render": true
+            },
+            "sqlite": {
+                "include": "all",
+                "exclude": "none",
+                "render": true
+            },
+            "json": {
+                "include": "all",
+                "exclude": "none",
+                "render": true
+            }
+        },
+        "change_log": {
+            "0.1.0": "Initial load of data",
+            "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on compoiste rural urban classifcation data emissions data\n' to 'The similarity between authorities is calculated by the proportion of the population living in urban, rural, and highly rural neighbourhoods. The population density is also used to help distinguish between authorities in entirely urban areas. \nThis UK-wide comparison is based on a [Composite Rural Urban Classification](https://mysociety.github.io/uk_ruc/) system. \n'",
+            "1.0.0": "lock data schema",
+            "1.1.0-futurecouncils": ""
+        }
+    },
+    "resources": [
+        {
+            "title": "Local Authority RUC Similarity",
+            "description": "Dataset of distance calculations based on RUC data.\nThis distance is based on:\n* Proportion of population in urban area\n* Proportion of population in rural area\n* Proportion of population in highly rural area\n",
+            "custom": {
+                "row_count": 154056
+            },
+            "path": "distance_map.csv",
+            "name": "distance_map",
+            "profile": "tabular-data-resource",
+            "scheme": "file",
+            "format": "csv",
+            "hashing": "md5",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "local-authority-code_A",
+                        "type": "string",
+                        "description": "A three/four letter code for the local authority",
+                        "constraints": {
+                            "unique": false
+                        },
+                        "example": "ABC"
+                    },
+                    {
+                        "name": "local-authority-code_B",
+                        "type": "string",
+                        "description": "A three/four letter code for the local authority",
+                        "constraints": {
+                            "unique": false
+                        },
+                        "example": "ABC"
+                    },
+                    {
+                        "name": "distance",
+                        "type": "number",
+                        "description": "The distance between the two local authorities (not meaningful except for comparisons)",
+                        "constraints": {
+                            "unique": false
+                        },
+                        "example": 8.31765186168898e-05
+                    },
+                    {
+                        "name": "match",
+                        "type": "number",
+                        "description": "A score between 0 and 100 indicting how similar a council is (based on all known distances for a council)",
+                        "constraints": {
+                            "unique": false
+                        },
+                        "example": 0.0
+                    },
+                    {
+                        "name": "position",
+                        "type": "number",
+                        "description": "The rank of how much local authority B is similar to local authority A (1 is most similar).",
+                        "constraints": {
+                            "unique": false
+                        },
+                        "example": 1.0
+                    }
+                ]
+            },
+            "hash": "9330120f4783f1b8709b90332749e743"
+        },
+        {
+            "title": "Local authority rural-urban profile labels",
+            "description": "A short category based on rural-urban profile for each local authority",
+            "custom": {
+                "row_count": 394
+            },
+            "path": "la_labels.csv",
+            "name": "la_labels",
+            "profile": "tabular-data-resource",
+            "scheme": "file",
+            "format": "csv",
+            "hashing": "md5",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "local-authority-code",
+                        "type": "string",
+                        "description": "3/4 letter local authority code.",
+                        "constraints": {
+                            "unique": true
+                        },
+                        "example": "ABC"
+                    },
+                    {
+                        "name": "label",
+                        "type": "string",
+                        "description": "Label to describe rural-urban profile of authority.",
+                        "constraints": {
+                            "unique": false,
+                            "enum": [
+                                "Sparse and rural",
+                                "Urban",
+                                "Rural",
+                                "Urban with rural areas"
+                            ]
+                        },
+                        "example": "Rural"
+                    }
+                ]
+            },
+            "hash": "78498b548c85ab138a2a3472585cba2c"
+        },
+        {
+            "title": "Local authority rural-urban labels",
+            "description": "Map of short labels to longer descriptions for rural-urban categories.",
+            "custom": {
+                "row_count": 5
+            },
+            "path": "label_desc.csv",
+            "name": "label_desc",
+            "profile": "tabular-data-resource",
+            "scheme": "file",
+            "format": "csv",
+            "hashing": "md5",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "label",
+                        "type": "string",
+                        "description": "Short label for rural-urban profile.",
+                        "constraints": {
+                            "unique": true,
+                            "enum": [
+                                "Sparse and rural",
+                                "Urban",
+                                "Rural",
+                                "Urban with rural areas"
+                            ]
+                        },
+                        "example": "Rural"
+                    },
+                    {
+                        "name": "desc",
+                        "type": "string",
+                        "description": "Longer description of rural-urban profile.",
+                        "constraints": {
+                            "unique": true,
+                            "enum": [
+                                "Local authority predominately made up of large and low-density rural neighbourhoods",
+                                "Local authority predominately made up of urban neighbourhoods",
+                                "Local authority predominately made up of rural neighbourhoods",
+                                "Local authority mostly made up of urban neighbourhoods, but with a significant number of rural neighbourhoods"
+                            ]
+                        },
+                        "example": "Local authority mostly made up of urban neighbourhoods, but with a significant number of rural neighbourhoods"
+                    }
+                ]
+            },
+            "hash": "7279f4e02984868d00f7dd83dfdda036"
+        }
+    ]
+}

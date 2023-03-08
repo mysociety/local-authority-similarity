@@ -47,6 +47,9 @@ custom:
       \ entirely urban areas. \nThis UK-wide comparison is based on a [Composite Rural\
       \ Urban Classification](https://mysociety.github.io/uk_ruc/) system. \n'"
     1.0.0: lock data schema
+  formats:
+    csv: true
+    parquet: true
 resources:
 - title: Local Authority RUC Similarity
   description: "Dataset of distance calculations based on RUC data.\nThis distance\
@@ -97,7 +100,6 @@ resources:
         unique: false
       example: 1.0
   hash: 3bef10c1bb15b0b9c866af92b3f85a08
-  download_id: ruc-distance-distance-map
 - title: Local authority rural-urban profile labels
   description: A short category based on rural-urban profile for each local authority
   custom:
@@ -129,7 +131,6 @@ resources:
         - Urban with rural areas
       example: Sparse and rural
   hash: f2fa16d6a33d5435c49b1a5d929addbb
-  download_id: ruc-distance-la-labels
 - title: Local authority rural-urban labels
   description: Map of short labels to longer descriptions for rural-urban categories.
   custom:
@@ -168,7 +169,6 @@ resources:
       example: Local authority predominately made up of large and low-density rural
         neighbourhoods
   hash: 7279f4e02984868d00f7dd83dfdda036
-  download_id: ruc-distance-label-desc
 full_version: 1.0.0
 permalink: /datasets/ruc_distance/latest
 ---

@@ -1,0 +1,31 @@
+title: Local authority rural-urban profile labels
+description: A short category based on rural-urban profile for each local authority
+custom:
+  row_count: 394
+path: la_labels.csv
+name: la_labels
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: local-authority-code
+    type: string
+    description: 3/4 letter local authority code.
+    constraints:
+      unique: true
+    example: ABC
+  - name: label
+    type: string
+    description: Label to describe rural-urban profile of authority.
+    constraints:
+      unique: false
+      enum:
+      - Sparse and rural
+      - Urban
+      - Rural
+      - Urban with rural areas
+    example: Rural
+hash: 78498b548c85ab138a2a3472585cba2c

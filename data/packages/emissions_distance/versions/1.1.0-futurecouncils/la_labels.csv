@@ -1,0 +1,394 @@
+local-authority-code,label
+GLA,Public sector
+WMCA,Urban Mainstream
+GMCA,Urban Mainstream
+WYCA,Urban Mainstream
+KEN,Urban Mainstream
+LCR,Urban Mainstream
+CPCA,Urban Mainstream
+ESS,Transport/Domestic
+SCR,Urban Mainstream
+HAM,Urban Mainstream
+LAN,Urban Mainstream
+SRY,Urban Mainstream
+HRT,Urban Mainstream
+NECA,Urban Mainstream
+BIR,Public sector
+WECA,Urban Mainstream
+NFK,Transport/Domestic
+STS,Transport/Domestic
+WSX,Urban Mainstream
+NTCA,Transport/Domestic
+NTT,Transport/Domestic
+DEV,Transport/Domestic
+DBY,Transport/Domestic
+LDS,Urban Mainstream
+LIN,Transport/Domestic
+SFK,Transport/Domestic
+LEC,Transport/Domestic
+OXF,Transport/Domestic
+TVCA,Transport/Domestic
+CAM,Transport/Domestic
+GLS,Urban Mainstream
+GLG,Public sector
+NYE,Transport/Domestic
+WOR,Urban Mainstream
+SHF,Urban Mainstream
+WAR,Transport/Domestic
+CON,Transport/Domestic
+SMT,Transport/Domestic
+ESX,Urban Mainstream
+MAN,Public sector
+BUC,Urban Mainstream
+BRD,Urban Mainstream
+DUR,Transport/Domestic
+EDH,Public sector
+WIL,Transport/Domestic
+LIV,Public sector
+BST,Public sector
+KIR,Urban Mainstream
+WNT,Transport/Domestic
+BNE,Urban Mainstream
+BPC,Urban Mainstream
+CRY,Urban Mainstream
+CHE,Transport/Domestic
+DST,Transport/Domestic
+COV,Public sector
+FIF,Transport/Domestic
+CRF,Urban Mainstream
+NWM,Urban Mainstream
+LCE,Urban Mainstream
+WKF,Urban Mainstream
+NNT,Transport/Domestic
+CHW,Transport/Domestic
+ERY,Transport/Domestic
+BFS,Public sector
+NLK,Urban Mainstream
+EAL,Urban Mainstream
+NGM,Public sector
+ENF,Urban Mainstream
+BRY,Urban Mainstream
+TWH,Public sector
+WGN,Urban Mainstream
+WND,Public sector
+SAW,Urban Mainstream
+BEN,Public sector
+SHR,Transport/Domestic
+WRL,Urban Mainstream
+NBL,Agriculture
+DUD,Urban Mainstream
+LBH,Public sector
+SLK,Urban Mainstream
+SWK,Public sector
+DNC,Urban Mainstream
+HIL,Urban Mainstream
+NET,Public sector
+RDB,Urban Mainstream
+LEW,Urban Mainstream
+SKP,Urban Mainstream
+CBF,Urban Mainstream
+BNH,Urban Mainstream
+GRE,Urban Mainstream
+BOL,Urban Mainstream
+SGC,Urban Mainstream
+WLL,Urban Mainstream
+HCK,Public sector
+CMD,Public sector
+MDW,Urban Mainstream
+SND,Urban Mainstream
+WFT,Urban Mainstream
+SFT,Public sector
+CBD,Transport/Domestic
+HNS,Urban Mainstream
+MIK,Urban Mainstream
+WSM,Public sector
+HRY,Urban Mainstream
+ROT,Urban Mainstream
+WLV,Urban Mainstream
+PLY,Urban Mainstream
+SLF,Public sector
+ABD,Transport/Domestic
+HAV,Urban Mainstream
+KHL,Urban Mainstream
+DER,Urban Mainstream
+STE,Urban Mainstream
+STH,Public sector
+HRW,Urban Mainstream
+ESK,Transport/Domestic
+BEX,Urban Mainstream
+ISL,Public sector
+BNS,Industry/Commerical/Domestic
+SWA,Urban Mainstream
+RCT,Urban Mainstream
+OLD,Urban Mainstream
+TRF,Urban Mainstream
+HLD,Transport/Domestic
+ABE,Public sector
+TAM,Urban Mainstream
+WAF,Agriculture
+RCH,Urban Mainstream
+SWD,Urban Mainstream
+SOL,Urban Mainstream
+ABC,Agriculture
+NSM,Urban Mainstream
+POR,Public sector
+BDG,Urban Mainstream
+LUT,Urban Mainstream
+CLD,Urban Mainstream
+YOR,Urban Mainstream
+WRT,Urban Mainstream
+NTY,Urban Mainstream
+STN,Urban Mainstream
+MRT,Urban Mainstream
+PTE,Transport/Domestic
+GAT,Transport/Domestic
+RIC,Urban Mainstream
+STT,Transport/Domestic
+COL,Urban Mainstream
+BAS,Urban Mainstream
+HEF,Transport/Domestic
+BUR,Urban Mainstream
+CMN,Agriculture
+CHA,Urban Mainstream
+BAI,Urban Mainstream
+WLN,Urban Mainstream
+HMF,Public sector
+SOS,Urban Mainstream
+CAY,Urban Mainstream
+NMD,Agriculture
+TFW,Urban Mainstream
+SHN,Public sector
+NEW,Transport/Domestic
+CHL,Transport/Domestic
+RFW,Urban Mainstream
+KTT,Urban Mainstream
+HUN,Transport/Domestic
+BAN,Transport/Domestic
+WSK,Industry/Commerical/Domestic
+THR,Transport/Domestic
+BDF,Urban Mainstream
+WOK,Urban Mainstream
+MAI,Urban Mainstream
+NLN,Transport/Domestic
+CAT,Public sector
+WEA,Transport/Domestic
+AND,Agriculture
+ARU,Urban Mainstream
+SCA,Transport/Domestic
+FAL,Urban Mainstream
+RDG,Public sector
+NEL,Transport/Domestic
+WBK,Transport/Domestic
+KEC,Public sector
+FLN,Transport/Domestic
+NWP,Urban Mainstream
+DAC,Urban Mainstream
+BRA,Transport/Domestic
+KWL,Urban Mainstream
+MSS,Transport/Domestic
+PKN,Transport/Domestic
+CHR,Transport/Domestic
+EHE,Transport/Domestic
+OXO,Public sector
+WNM,Urban Mainstream
+KIN,Industry/Commerical/Domestic
+STY,Urban Mainstream
+DRS,Agriculture
+SWL,Urban Mainstream
+GRT,Transport/Domestic
+BBD,Urban Mainstream
+SLG,Public sector
+SAL,Urban Mainstream
+REI,Urban Mainstream
+MUL,Agriculture
+DND,Public sector
+DGY,Agriculture
+LAC,Urban Mainstream
+EDE,Transport/Domestic
+BGE,Urban Mainstream
+TEN,Transport/Domestic
+LBC,Transport/Domestic
+HOR,Transport/Domestic
+CCG,Agriculture
+WAW,Transport/Domestic
+NTL,Urban Mainstream
+PRE,Public sector
+SOX,Transport/Domestic
+ANN,Agriculture
+SKE,Transport/Domestic
+SNO,Transport/Domestic
+IOW,Urban Mainstream
+NOW,Public sector
+ELI,Transport/Domestic
+THA,Agriculture
+MDB,Transport/Domestic
+BRE,Transport/Domestic
+MEA,Agriculture
+BPL,Urban Mainstream
+VAL,Transport/Domestic
+STA,Transport/Domestic
+RCC,Industry/Commerical/Domestic
+ELM,Transport/Domestic
+TOB,Urban Mainstream
+WRX,Agriculture
+IPS,Urban Mainstream
+EAT,Urban Mainstream
+VGL,Transport/Domestic
+TEI,Transport/Domestic
+NAY,Industry/Commerical/Domestic
+NHE,Urban Mainstream
+EXE,Public sector
+POW,Agriculture
+TON,Urban Mainstream
+STR,Transport/Domestic
+EPP,Transport/Domestic
+BRO,Transport/Domestic
+WYC,Transport/Domestic
+ASF,Urban Mainstream
+NUN,Urban Mainstream
+HAL,Urban Mainstream
+GLO,Urban Mainstream
+NEC,Urban Mainstream
+AMB,Transport/Domestic
+ASH,Urban Mainstream
+TES,Transport/Domestic
+PEM,Agriculture
+WAE,Transport/Domestic
+HAA,Urban Mainstream
+WIN,Transport/Domestic
+GWN,Transport/Domestic
+CAB,Public sector
+BRC,Urban Mainstream
+WEW,Urban Mainstream
+EHA,Transport/Domestic
+NEA,Transport/Domestic
+EAY,Agriculture
+CHI,Transport/Domestic
+RUS,Industry/Commerical/Domestic
+SEV,Urban Mainstream
+EST,Transport/Domestic
+STO,Transport/Domestic
+TUN,Urban Mainstream
+CHO,Urban Mainstream
+DOV,Urban Mainstream
+BAE,Transport/Domestic
+GED,Urban Mainstream
+CWY,Transport/Domestic
+NKE,Transport/Domestic
+FMO,Agriculture
+FAR,Urban Mainstream
+CHT,Public sector
+ANS,Transport/Domestic
+ERE,Urban Mainstream
+SCB,Agriculture
+BRT,Urban Mainstream
+WLA,Transport/Domestic
+DAR,Urban Mainstream
+HIN,Urban Mainstream
+SHE,Urban Mainstream
+WYR,Transport/Domestic
+CRW,Urban Mainstream
+SST,Transport/Domestic
+SAY,Transport/Domestic
+WOX,Transport/Domestic
+SRI,Urban Mainstream
+WOT,Urban Mainstream
+RUG,Transport/Domestic
+SDE,Transport/Domestic
+MAS,Urban Mainstream
+EDU,Urban Mainstream
+ELN,Transport/Domestic
+DAL,Transport/Domestic
+GRA,Urban Mainstream
+LIF,Transport/Domestic
+HER,Urban Mainstream
+NNO,Transport/Domestic
+CHS,Urban Mainstream
+MSU,Transport/Domestic
+NWL,Transport/Domestic
+LEE,Urban Mainstream
+EAS,Public sector
+NED,Transport/Domestic
+FEN,Transport/Domestic
+BLA,Urban Mainstream
+CAN,Urban Mainstream
+WYE,Urban Mainstream
+BRM,Transport/Domestic
+WOC,Public sector
+LIC,Public sector
+WOI,Urban Mainstream
+SPE,Urban Mainstream
+GRY,Urban Mainstream
+STF,Industry/Commerical/Domestic
+NDE,Transport/Domestic
+HAT,Urban Mainstream
+BRX,Urban Mainstream
+ROH,Transport/Domestic
+DEN,Transport/Domestic
+TEW,Transport/Domestic
+WAT,Urban Mainstream
+WLI,Transport/Domestic
+ERW,Urban Mainstream
+SHO,Transport/Domestic
+MRY,Agriculture
+HAO,Transport/Domestic
+MON,Transport/Domestic
+TOF,Urban Mainstream
+RUH,Urban Mainstream
+STG,Transport/Domestic
+THE,Urban Mainstream
+HPL,Transport/Domestic
+MLN,Urban Mainstream
+UTT,Transport/Domestic
+BAB,Transport/Domestic
+HIG,Agriculture
+HAS,Urban Mainstream
+PEN,Urban Mainstream
+CAS,Urban Mainstream
+RUN,Public sector
+COT,Transport/Domestic
+ECA,Transport/Domestic
+BUN,Urban Mainstream
+SUR,Transport/Domestic
+TAN,Transport/Domestic
+WDU,Public sector
+STV,Public sector
+SHA,Transport/Domestic
+ROC,Urban Mainstream
+MOL,Transport/Domestic
+HAR,Urban Mainstream
+FOE,Transport/Domestic
+RED,Urban Mainstream
+AGB,Transport/Domestic
+GOS,Urban Mainstream
+MDE,Transport/Domestic
+BOS,Urban Mainstream
+FYL,Transport/Domestic
+HYN,Urban Mainstream
+EPS,Urban Mainstream
+MAV,Transport/Domestic
+BRW,Transport/Domestic
+IVC,Transport/Domestic
+TAW,Urban Mainstream
+CGN,Agriculture
+DEB,Agriculture
+ROS,Transport/Domestic
+BOT,Transport/Domestic
+AGY,Agriculture
+BGW,Urban Mainstream
+TOR,Agriculture
+NWA,Transport/Domestic
+MAL,Urban Mainstream
+ADU,Urban Mainstream
+RIB,Agriculture
+MTY,Urban Mainstream
+OAD,Urban Mainstream
+WDE,Agriculture
+MEL,Transport/Domestic
+CLK,Industry/Commerical/Domestic
+RUT,Transport/Domestic
+ELS,Agriculture
+ZET,Agriculture
+ORK,Agriculture
+LND,City of London
+IOS,Urban Mainstream
