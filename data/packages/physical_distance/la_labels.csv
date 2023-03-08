@@ -5,7 +5,6 @@ ABE,Scotland
 ADU,South East
 AGB,Scotland
 AGY,Wales
-ALL,North West
 AMB,East Midlands
 AND,Northern Ireland
 ANN,Northern Ireland
@@ -17,7 +16,6 @@ BAB,East of England
 BAE,East Midlands
 BAI,East of England
 BAN,South East
-BAR,North West
 BAS,South West
 BBD,North West
 BDF,East of England
@@ -54,10 +52,10 @@ BUR,North West
 CAB,East of England
 CAM,East of England
 CAN,West Midlands
-CAR,North West
 CAS,East of England
 CAT,South East
 CAY,Wales
+CBD,North West
 CBF,East of England
 CCG,Northern Ireland
 CGN,Wales
@@ -72,16 +70,13 @@ CHT,South West
 CHW,North West
 CLD,Yorkshire and The Humber
 CLK,Scotland
-CMA,North West
 CMD,London
 CMN,Wales
 COL,East of England
 CON,South West
-COP,North West
 COT,South West
 COV,West Midlands
 CPCA,East of England
-CRA,Yorkshire and The Humber
 CRF,Wales
 CRW,South East
 CRY,London
@@ -109,7 +104,6 @@ EAY,Scotland
 ECA,East of England
 EDE,South West
 EDH,Scotland
-EDN,North West
 EDU,Scotland
 EHA,South East
 EHE,East of England
@@ -150,8 +144,6 @@ GRT,South East
 GRY,East of England
 GWN,Wales
 HAA,South East
-HAE,Yorkshire and The Humber
-HAG,Yorkshire and The Humber
 HAL,North West
 HAM,South East
 HAO,East Midlands
@@ -213,7 +205,6 @@ MDE,South West
 MDW,South East
 MEA,Northern Ireland
 MEL,East Midlands
-MEN,South West
 MIK,South East
 MLN,Scotland
 MOL,South East
@@ -254,7 +245,7 @@ NWA,West Midlands
 NWL,East Midlands
 NWM,London
 NWP,Wales
-NYK,Yorkshire and The Humber
+NYE,Yorkshire and The Humber
 OAD,East Midlands
 OLD,North West
 ORK,Scotland
@@ -278,7 +269,6 @@ REI,South East
 RFW,Scotland
 RIB,North West
 RIC,London
-RIH,Yorkshire and The Humber
 ROC,East of England
 ROH,South East
 ROS,North West
@@ -288,17 +278,13 @@ RUH,South East
 RUN,South East
 RUS,East Midlands
 RUT,East Midlands
-RYE,Yorkshire and The Humber
 SAL,East of England
 SAW,West Midlands
 SAY,Scotland
 SCA,East of England
 SCB,Scotland
-SCE,Yorkshire and The Humber
 SCR,Yorkshire and The Humber
 SDE,East Midlands
-SEG,South West
-SEL,Yorkshire and The Humber
 SEV,South East
 SFK,East of England
 SFT,North West
@@ -311,20 +297,18 @@ SHO,East Midlands
 SHR,West Midlands
 SKE,East Midlands
 SKP,North West
-SLA,North West
 SLF,North West
 SLG,South East
 SLK,Scotland
+SMT,South West
 SND,North East
 SNO,East of England
 SOL,West Midlands
-SOM,South West
 SOS,East of England
 SOX,South East
 SPE,South East
 SRI,North West
 SRY,South East
-SSO,South West
 SST,West Midlands
 STA,West Midlands
 STE,West Midlands
@@ -343,7 +327,6 @@ SWA,Wales
 SWD,South West
 SWK,London
 SWL,South East
-SWT,South West
 TAM,North West
 TAN,South East
 TAW,West Midlands
@@ -367,6 +350,7 @@ UTT,East of England
 VAL,South East
 VGL,Wales
 WAE,South East
+WAF,North West
 WAR,West Midlands
 WAT,East of England
 WAW,West Midlands

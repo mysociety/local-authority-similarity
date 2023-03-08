@@ -4,7 +4,7 @@ description: "Dataset of distance calculations based on Composite UK IMD.\nThis 
   \ IMD quintile 1\n* proportion of LA population in LSOAs in IMD quintile 2,3\n*\
   \ proportion of LA population in LSOAs in IMD quintile 4,5\n"
 custom:
-  row_count: 166872
+  row_count: 154056
 path: distance_map.csv
 name: distance_map
 profile: tabular-data-resource
@@ -25,21 +25,21 @@ schema:
     description: A three/four letter code for the local authority
     constraints:
       unique: false
-    example: KWL
+    example: ABC
   - name: distance
     type: number
     description: The distance between the two local authorities (not meaningful except
       for comparisons)
     constraints:
       unique: false
-    example: 0.8373496909286713
+    example: 0.0030655488826142
   - name: match
     type: number
     description: A score between 0 and 100 indicting how similar a council is (based
       on all known distances for a council)
     constraints:
       unique: false
-    example: 85.7
+    example: 0.0
   - name: position
     type: number
     description: The rank of how much local authority B is similar to local authority
@@ -47,4 +47,4 @@ schema:
     constraints:
       unique: false
     example: 1.0
-hash: 11ddb7ccf3a42ce0e5165062f5e37d6e
+hash: 6870b4786910d035879b441f9113fc0e

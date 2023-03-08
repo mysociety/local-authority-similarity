@@ -25,6 +25,9 @@ reportPrivateImportUsage="warning"
 
 [notebook.settings]
 default_page_title = "Settings file defined title"
+emissions_release = "1.1.0-futurecouncils"
+imd_release = "3.1.0-futurecouncils"
+ruc_release = "2.1.0-futurecouncils"
 
 [tool.dataset]
 dataset_dir = "data/packages"

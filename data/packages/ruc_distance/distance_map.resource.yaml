@@ -3,7 +3,7 @@ description: "Dataset of distance calculations based on RUC data.\nThis distance
   \ based on:\n* Proportion of population in urban area\n* Proportion of population\
   \ in rural area\n* Proportion of population in highly rural area\n"
 custom:
-  row_count: 166872
+  row_count: 154056
 path: distance_map.csv
 name: distance_map
 profile: tabular-data-resource
@@ -24,21 +24,21 @@ schema:
     description: A three/four letter code for the local authority
     constraints:
       unique: false
-    example: MAV
+    example: ABC
   - name: distance
     type: number
     description: The distance between the two local authorities (not meaningful except
       for comparisons)
     constraints:
       unique: false
-    example: 0.0553889061031823
+    example: 8.31765186168898e-05
   - name: match
     type: number
     description: A score between 0 and 100 indicting how similar a council is (based
       on all known distances for a council)
     constraints:
       unique: false
-    example: 98.9
+    example: 0.0
   - name: position
     type: number
     description: The rank of how much local authority B is similar to local authority
@@ -46,4 +46,4 @@ schema:
     constraints:
       unique: false
     example: 1.0
-hash: 3bef10c1bb15b0b9c866af92b3f85a08
+hash: 9330120f4783f1b8709b90332749e743

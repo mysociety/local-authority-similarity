@@ -3,7 +3,7 @@ description: "Dataset of distance calculations based on other measures of distan
   \ data.\nThis distance is based on:\n* Emissions profile\n* IMD profile\n* Rural-ruban\
   \ profile\n* Physical distance\n"
 custom:
-  row_count: 166872
+  row_count: 154056
 path: distance_map.csv
 name: distance_map
 profile: tabular-data-resource
@@ -24,26 +24,26 @@ schema:
     description: A three/four letter code for the local authority
     constraints:
       unique: false
-    example: MEA
+    example: ABC
   - name: distance
     type: number
     description: The distance between the two local authorities (not meaningful except
       for comparisons)
     constraints:
       unique: false
-    example: 5.586884337096948
+    example: 0.6013824212265125
   - name: match
     type: number
     description: A score between 0 and 100 indicting how similar a council is (based
       on all known distances for a council)
     constraints:
       unique: false
-    example: 64.7
+    example: 0.0
   - name: position
     type: number
     description: The rank of how much local authority B is similar to local authority
       A (1 is most similar).
     constraints:
       unique: false
-    example: 2.0
-hash: 587175855448a14386dc2e2f9b3a9dfe
+    example: 1.0
+hash: 13e966cb95329df7e5baa37ceeea64d8

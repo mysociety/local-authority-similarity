@@ -5,7 +5,6 @@ ABE,Urban
 ADU,Urban
 AGB,Sparse and rural
 AGY,Rural
-ALL,Rural
 AMB,Urban with rural areas
 AND,Urban with rural areas
 ANN,Urban with rural areas
@@ -17,7 +16,6 @@ BAB,Rural
 BAE,Urban with rural areas
 BAI,Urban
 BAN,Urban with rural areas
-BAR,Urban with rural areas
 BAS,Urban with rural areas
 BBD,Urban
 BDF,Urban with rural areas
@@ -40,7 +38,7 @@ BPL,Urban
 BRA,Urban with rural areas
 BRC,Urban
 BRD,Urban
-BRE,Sparse and rural
+BRE,Rural
 BRM,Urban with rural areas
 BRO,Rural
 BRT,Urban
@@ -53,10 +51,10 @@ BUN,Urban
 BUR,Urban
 CAB,Urban
 CAN,Urban
-CAR,Urban with rural areas
 CAS,Urban
 CAT,Urban
 CAY,Urban with rural areas
+CBD,Rural
 CBF,Urban with rural areas
 CCG,Sparse and rural
 CGN,Sparse and rural
@@ -72,13 +70,11 @@ CHW,Urban with rural areas
 CLD,Urban
 CLK,Rural
 CMD,Urban
-CMN,Urban with rural areas
+CMN,Rural
 COL,Urban with rural areas
 CON,Rural
-COP,Rural
 COT,Rural
 COV,Urban
-CRA,Rural
 CRF,Urban
 CRW,Urban
 CRY,Urban
@@ -104,7 +100,6 @@ EAY,Rural
 ECA,Rural
 EDE,Rural
 EDH,Urban
-EDN,Sparse and rural
 EDU,Urban
 EHA,Urban with rural areas
 EHE,Urban with rural areas
@@ -140,8 +135,6 @@ GRT,Urban with rural areas
 GRY,Urban with rural areas
 GWN,Rural
 HAA,Urban
-HAE,Sparse and rural
-HAG,Urban with rural areas
 HAL,Urban
 HAO,Rural
 HAR,Urban
@@ -196,7 +189,6 @@ MDE,Rural
 MDW,Urban
 MEA,Urban with rural areas
 MEL,Urban with rural areas
-MEN,Urban with rural areas
 MIK,Urban
 MLN,Urban with rural areas
 MOL,Urban with rural areas
@@ -220,7 +212,7 @@ NGM,Urban
 NHE,Urban
 NKE,Rural
 NLK,Urban
-NLN,Urban with rural areas
+NLN,Rural
 NMD,Sparse and rural
 NNO,Sparse and rural
 NNT,Urban with rural areas
@@ -233,6 +225,7 @@ NWA,Rural
 NWL,Rural
 NWM,Urban
 NWP,Urban
+NYE,Rural
 OAD,Urban
 OLD,Urban
 ORK,Sparse and rural
@@ -255,7 +248,6 @@ REI,Urban
 RFW,Urban
 RIB,Rural
 RIC,Urban
-RIH,Rural
 ROC,Urban
 ROH,Rural
 ROS,Urban
@@ -265,16 +257,12 @@ RUH,Urban
 RUN,Urban
 RUS,Rural
 RUT,Rural
-RYE,Sparse and rural
 SAL,Urban
 SAW,Urban
 SAY,Urban with rural areas
 SCA,Rural
 SCB,Sparse and rural
-SCE,Urban with rural areas
 SDE,Rural
-SEG,Urban with rural areas
-SEL,Rural
 SEV,Urban with rural areas
 SFT,Urban
 SGC,Urban
@@ -286,10 +274,10 @@ SHO,Rural
 SHR,Rural
 SKE,Urban with rural areas
 SKP,Urban
-SLA,Rural
 SLF,Urban
 SLG,Urban
 SLK,Urban with rural areas
+SMT,Urban with rural areas
 SND,Urban
 SNO,Rural
 SOL,Urban
@@ -297,7 +285,6 @@ SOS,Urban
 SOX,Rural
 SPE,Urban
 SRI,Urban
-SSO,Rural
 SST,Urban with rural areas
 STA,Urban with rural areas
 STE,Urban
@@ -315,7 +302,6 @@ SWA,Urban
 SWD,Urban
 SWK,Urban
 SWL,Urban with rural areas
-SWT,Urban with rural areas
 TAM,Urban
 TAN,Urban with rural areas
 TAW,Urban
@@ -338,6 +324,7 @@ UTT,Rural
 VAL,Urban with rural areas
 VGL,Urban with rural areas
 WAE,Urban with rural areas
+WAF,Rural
 WAT,Urban
 WAW,Urban
 WBK,Urban with rural areas
@@ -374,7 +361,6 @@ WYR,Urban with rural areas
 YOR,Urban
 ZET,Sparse and rural
 CAM,Rural
-CMA,Rural
 DBY,Urban with rural areas
 DEV,Rural
 ESS,Urban with rural areas
@@ -388,10 +374,8 @@ LEC,Urban with rural areas
 LIN,Urban with rural areas
 NFK,Rural
 NTT,Urban with rural areas
-NYK,Rural
 OXF,Urban with rural areas
 SFK,Urban with rural areas
-SOM,Urban with rural areas
 SRY,Urban
 STS,Urban with rural areas
 WAR,Urban with rural areas

@@ -1,7 +1,7 @@
 title: Local authority rural-urban profile labels
 description: A short category based on rural-urban profile for each local authority
 custom:
-  row_count: 409
+  row_count: 394
 path: la_labels.csv
 name: la_labels
 profile: tabular-data-resource
@@ -27,5 +27,5 @@ schema:
       - Urban
       - Rural
       - Urban with rural areas
-    example: Sparse and rural
-hash: f2fa16d6a33d5435c49b1a5d929addbb
+    example: Rural
+hash: 78498b548c85ab138a2a3472585cba2c

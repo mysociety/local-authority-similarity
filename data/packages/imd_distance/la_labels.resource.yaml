@@ -1,7 +1,7 @@
 title: Local authority IMD profile labels
 description: A short category based on IMD profile for each local authority
 custom:
-  row_count: 409
+  row_count: 394
 path: la_labels.csv
 name: la_labels
 profile: tabular-data-resource
@@ -16,7 +16,7 @@ schema:
     description: 3/4 letter local authority code.
     constraints:
       unique: true
-    example: DRS
+    example: ABC
   - name: label
     type: string
     description: Label to describe IMD profile of authority.
@@ -29,4 +29,4 @@ schema:
       - 4th IMD quintile
       - 5th IMD quintile
     example: 1st IMD quintile
-hash: 399abd75572bbb5091d1493a28445c0d
+hash: eecaece9715b92c1bf66dc21d3874af4

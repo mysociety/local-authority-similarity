@@ -15,7 +15,7 @@ contributors:
 custom:
   build: local_authority_similarity.__main__:build_composite
   tests:
-  - test_emissions_distance
+  - test_local_authority_similarity
   dataset_order: 1
   download_options:
     gate: default

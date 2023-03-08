@@ -1,7 +1,7 @@
 title: Local authority composite labels
 description: Map of short labels to longer descriptions for composite categories.
 custom:
-  row_count: 1440
+  row_count: 1441
 path: label_desc.csv
 name: label_desc
 profile: tabular-data-resource
@@ -16,13 +16,13 @@ schema:
     description: Short label for composite profile.
     constraints:
       unique: true
-    example: 'Northern Ireland; Emissions: Urban Mainstream; 1st IMD quintile; Sparse
-      and rural'
+    example: 'East Midlands; Emissions: Agriculture; 1st IMD quintile; Rural'
   - name: desc
     type: string
     description: Longer description of composite profile.
     constraints:
       unique: false
-    example: Below average for all emissions scores; in most deprived quintile (20%);
-      Local authority predominately made up of large and low-density rural neighbourhoods
-hash: 4afe995b8f68a4ee6e7e489b426ad48a
+    example: Above average agriculture, domestic score; in least deprived quintile
+      (20%); Local authority mostly made up of urban neighbourhoods, but with a significant
+      number of rural neighbourhoods
+hash: 27dae1251fbfea28220f3ac942facf13

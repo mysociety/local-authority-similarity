@@ -5,7 +5,7 @@ description: "Dataset of distance calculations based on BEIS Emissions data.\nTh
   \ emissions per person\n* Industrial emissions per unit of GDP\n* Commerical emissions\
   \ per unit of GDP\n* Agriculture emissions per unit of GDP\n"
 custom:
-  row_count: 166872
+  row_count: 154056
 path: distance_map.csv
 name: distance_map
 profile: tabular-data-resource
@@ -26,21 +26,21 @@ schema:
     description: A three/four letter code for the local authority
     constraints:
       unique: false
-    example: ANN
+    example: ABC
   - name: distance
     type: number
     description: The distance between the two local authorities (not meaningful except
       for comparisons)
     constraints:
       unique: false
-    example: 5.047379748128908
+    example: 0.2662063092538874
   - name: match
     type: number
     description: A score between 0 and 100 indicting how similar a council is (based
       on all known distances for a council)
     constraints:
       unique: false
-    example: 59.9
+    example: 0.0
   - name: position
     type: number
     description: The rank of how much local authority B is similar to local authority
@@ -48,4 +48,4 @@ schema:
     constraints:
       unique: false
     example: 1.0
-hash: 721e4ea243f2aafa5873e4b755f35bf3
+hash: 8cb42cea03dbadd878ab9d9b333f5170

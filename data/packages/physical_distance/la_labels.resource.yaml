@@ -1,7 +1,7 @@
 title: Local authority location profile labels
 description: A short category based on location profile for each local authority
 custom:
-  row_count: 409
+  row_count: 394
 path: la_labels.csv
 name: la_labels
 profile: tabular-data-resource
@@ -27,13 +27,13 @@ schema:
       - Scotland
       - South East
       - Wales
-      - North West
       - East Midlands
       - East of England
       - South West
+      - North West
       - London
       - West Midlands
       - Yorkshire and The Humber
       - North East
-    example: Northern Ireland
-hash: c9649385bb6a1b4b7e6ba697f938ba33
+    example: East Midlands
+hash: 4ab2d5ecba97c56dcba1ca7374307ce0
