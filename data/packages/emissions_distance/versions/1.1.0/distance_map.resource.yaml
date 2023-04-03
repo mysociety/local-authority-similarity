@@ -1,0 +1,51 @@
+title: Local Authority Emissions Similarity
+description: "Dataset of distance calculations based on BEIS Emissions data.\nThis\
+  \ distance is based on:\n* Winsorized population density\n* Public Sector emissions\
+  \ per person (winsorised)\n* Transport Emissions per person (winsorised)\n* Domestic\
+  \ emissions per person\n* Industrial emissions per unit of GDP\n* Commerical emissions\
+  \ per unit of GDP\n* Agriculture emissions per unit of GDP\n"
+custom:
+  row_count: 154056
+path: distance_map.csv
+name: distance_map
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: local-authority-code_A
+    type: string
+    description: A three/four letter code for the local authority
+    constraints:
+      unique: false
+    example: ABC
+  - name: local-authority-code_B
+    type: string
+    description: A three/four letter code for the local authority
+    constraints:
+      unique: false
+    example: ABC
+  - name: distance
+    type: number
+    description: The distance between the two local authorities (not meaningful except
+      for comparisons)
+    constraints:
+      unique: false
+    example: 0.2662063092538874
+  - name: match
+    type: number
+    description: A score between 0 and 100 indicting how similar a council is (based
+      on all known distances for a council)
+    constraints:
+      unique: false
+    example: 0.0
+  - name: position
+    type: number
+    description: The rank of how much local authority B is similar to local authority
+      A (1 is most similar).
+    constraints:
+      unique: false
+    example: 1.0
+hash: 8cb42cea03dbadd878ab9d9b333f5170

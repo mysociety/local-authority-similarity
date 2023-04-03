@@ -47,6 +47,8 @@ custom:
       \ ways, and then councils are positioned on how different they are to each other.\
       \ \n'"
     1.0.0: lock data schema
+    1.1.0-futurecouncils: ''
+    1.1.0: release 2023 data
   formats:
     csv: true
     parquet: true
@@ -58,7 +60,7 @@ resources:
     \ emissions per person\n* Industrial emissions per unit of GDP\n* Commerical emissions\
     \ per unit of GDP\n* Agriculture emissions per unit of GDP\n"
   custom:
-    row_count: 166872
+    row_count: 154056
   path: distance_map.csv
   name: distance_map
   profile: tabular-data-resource
@@ -79,21 +81,21 @@ resources:
       description: A three/four letter code for the local authority
       constraints:
         unique: false
-      example: ANN
+      example: ABC
     - name: distance
       type: number
       description: The distance between the two local authorities (not meaningful
         except for comparisons)
       constraints:
         unique: false
-      example: 5.047379748128908
+      example: 0.2662063092538874
     - name: match
       type: number
       description: A score between 0 and 100 indicting how similar a council is (based
         on all known distances for a council)
       constraints:
         unique: false
-      example: 59.9
+      example: 0.0
     - name: position
       type: number
       description: The rank of how much local authority B is similar to local authority
@@ -101,11 +103,11 @@ resources:
       constraints:
         unique: false
       example: 1.0
-  hash: 721e4ea243f2aafa5873e4b755f35bf3
+  hash: 8cb42cea03dbadd878ab9d9b333f5170
 - title: Local authority emissions profile labels
   description: A short category based on emissions profile for each local authority
   custom:
-    row_count: 409
+    row_count: 394
   path: la_labels.csv
   name: la_labels
   profile: tabular-data-resource
@@ -120,25 +122,25 @@ resources:
       description: 3/4 letter local authority code.
       constraints:
         unique: true
-      example: GLA
+      example: ABC
     - name: label
       type: string
       description: Label to describe emissions profile of authority.
       constraints:
         unique: false
         enum:
+        - Public sector
         - Urban Mainstream
         - Transport/Domestic
-        - Public sector
         - Agriculture
         - Industry/Commerical/Domestic
         - City of London
-      example: Urban Mainstream
-  hash: 97b49d2f5375d9f44c858648fe648483
+      example: Agriculture
+  hash: 7cae68d699a732f0742dac78d717cb1d
 - title: Local authority emissions labels
   description: Map of short labels to longer descriptions for emissions categories.
   custom:
-    row_count: 6
+    row_count: 7
   path: label_desc.csv
   name: label_desc
   profile: tabular-data-resource
@@ -154,29 +156,29 @@ resources:
       constraints:
         unique: true
         enum:
+        - Public sector
         - Urban Mainstream
         - Transport/Domestic
-        - Public sector
         - Agriculture
         - Industry/Commerical/Domestic
         - City of London
-      example: Urban Mainstream
+      example: Agriculture
     - name: desc
       type: string
       description: Longer description of emissions profile.
       constraints:
         unique: true
         enum:
-        - Below average for all emissions scores
-        - Above average transport/domestic score
         - Well above average public sector (government, education, health), below
           average in other areas.
+        - Below average for all emissions scores
+        - Above average transport/domestic score
         - Above average agriculture, domestic score
         - Above average for industry/domestic/doemestic, below average public sector
           emissions.
         - City of London does not have a comparable emissions profile
-      example: Below average for all emissions scores
-  hash: a48a0c1e2f901cf4622e1002eef715d7
-full_version: 1.0.0
+      example: Above average agriculture, domestic score
+  hash: 5c5b45d7a967ca4b2783394d38fe55b2
+full_version: 1.1.0
 permalink: /datasets/emissions_distance/latest
 ---

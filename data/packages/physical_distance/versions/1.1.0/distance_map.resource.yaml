@@ -1,0 +1,48 @@
+title: Local Authority Location Similarity
+description: "Dataset of distance calculations based on Location similarity\nThis\
+  \ is based on the x,y distance between centroids.\n"
+custom:
+  row_count: 154056
+path: distance_map.csv
+name: distance_map
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: local-authority-code_A
+    type: string
+    description: A three/four letter code for the local authority
+    constraints:
+      unique: false
+    example: ABC
+  - name: local-authority-code_B
+    type: string
+    description: A three/four letter code for the local authority
+    constraints:
+      unique: false
+    example: ABC
+  - name: distance
+    type: number
+    description: The distance between the two local authorities (not meaningful except
+      for comparisons)
+    constraints:
+      unique: false
+    example: 0.017487809745906
+  - name: match
+    type: number
+    description: A score between 0 and 100 indicting how similar a council is (based
+      on all known distances for a council)
+    constraints:
+      unique: false
+    example: 0.0
+  - name: position
+    type: number
+    description: The rank of how much local authority B is similar to local authority
+      A (1 is most similar).
+    constraints:
+      unique: false
+    example: 1.0
+hash: d984bcedf1a9705ee21ab15f8d530407

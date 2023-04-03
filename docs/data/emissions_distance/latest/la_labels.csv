@@ -1,5 +1,5 @@
 local-authority-code,label
-GLA,Urban Mainstream
+GLA,Public sector
 WMCA,Urban Mainstream
 GMCA,Urban Mainstream
 WYCA,Urban Mainstream
@@ -8,16 +8,16 @@ LCR,Urban Mainstream
 CPCA,Urban Mainstream
 ESS,Transport/Domestic
 SCR,Urban Mainstream
-HAM,Transport/Domestic
-LAN,Transport/Domestic
-SRY,Transport/Domestic
+HAM,Urban Mainstream
+LAN,Urban Mainstream
+SRY,Urban Mainstream
 HRT,Urban Mainstream
-NECA,Transport/Domestic
-BIR,Urban Mainstream
+NECA,Urban Mainstream
+BIR,Public sector
 WECA,Urban Mainstream
 NFK,Transport/Domestic
 STS,Transport/Domestic
-WSX,Transport/Domestic
+WSX,Urban Mainstream
 NTCA,Transport/Domestic
 NTT,Transport/Domestic
 DEV,Transport/Domestic
@@ -29,24 +29,23 @@ LEC,Transport/Domestic
 OXF,Transport/Domestic
 TVCA,Transport/Domestic
 CAM,Transport/Domestic
-GLS,Transport/Domestic
+GLS,Urban Mainstream
 GLG,Public sector
-NYK,Transport/Domestic
-WOR,Transport/Domestic
+NYE,Transport/Domestic
+WOR,Urban Mainstream
 SHF,Urban Mainstream
 WAR,Transport/Domestic
 CON,Transport/Domestic
-SOM,Transport/Domestic
-ESX,Transport/Domestic
+SMT,Transport/Domestic
+ESX,Urban Mainstream
 MAN,Public sector
-BUC,Transport/Domestic
+BUC,Urban Mainstream
 BRD,Urban Mainstream
 DUR,Transport/Domestic
 EDH,Public sector
 WIL,Transport/Domestic
-LIV,Urban Mainstream
-CMA,Agriculture
-BST,Urban Mainstream
+LIV,Public sector
+BST,Public sector
 KIR,Urban Mainstream
 WNT,Transport/Domestic
 BNE,Urban Mainstream
@@ -54,7 +53,7 @@ BPC,Urban Mainstream
 CRY,Urban Mainstream
 CHE,Transport/Domestic
 DST,Transport/Domestic
-COV,Urban Mainstream
+COV,Public sector
 FIF,Transport/Domestic
 CRF,Urban Mainstream
 NWM,Urban Mainstream
@@ -71,10 +70,10 @@ ENF,Urban Mainstream
 BRY,Urban Mainstream
 TWH,Public sector
 WGN,Urban Mainstream
-WND,Urban Mainstream
+WND,Public sector
 SAW,Urban Mainstream
-BEN,Urban Mainstream
-SHR,Agriculture
+BEN,Public sector
+SHR,Transport/Domestic
 WRL,Urban Mainstream
 NBL,Agriculture
 DUD,Urban Mainstream
@@ -93,12 +92,13 @@ GRE,Urban Mainstream
 BOL,Urban Mainstream
 SGC,Urban Mainstream
 WLL,Urban Mainstream
-HCK,Urban Mainstream
+HCK,Public sector
 CMD,Public sector
 MDW,Urban Mainstream
 SND,Urban Mainstream
 WFT,Urban Mainstream
 SFT,Public sector
+CBD,Transport/Domestic
 HNS,Urban Mainstream
 MIK,Urban Mainstream
 WSM,Public sector
@@ -106,31 +106,32 @@ HRY,Urban Mainstream
 ROT,Urban Mainstream
 WLV,Urban Mainstream
 PLY,Urban Mainstream
-SLF,Urban Mainstream
-ABD,Agriculture
+SLF,Public sector
+ABD,Transport/Domestic
 HAV,Urban Mainstream
 KHL,Urban Mainstream
 DER,Urban Mainstream
 STE,Urban Mainstream
-STH,Urban Mainstream
+STH,Public sector
 HRW,Urban Mainstream
 ESK,Transport/Domestic
 BEX,Urban Mainstream
-ISL,Urban Mainstream
-BNS,Urban Mainstream
+ISL,Public sector
+BNS,Industry/Commerical/Domestic
 SWA,Urban Mainstream
-RCT,Transport/Domestic
+RCT,Urban Mainstream
 OLD,Urban Mainstream
 TRF,Urban Mainstream
-HLD,Agriculture
+HLD,Transport/Domestic
 ABE,Public sector
 TAM,Urban Mainstream
+WAF,Agriculture
 RCH,Urban Mainstream
 SWD,Urban Mainstream
 SOL,Urban Mainstream
-ABC,Industry/Commerical/Domestic
+ABC,Agriculture
 NSM,Urban Mainstream
-POR,Urban Mainstream
+POR,Public sector
 BDG,Urban Mainstream
 LUT,Urban Mainstream
 CLD,Urban Mainstream
@@ -145,7 +146,7 @@ RIC,Urban Mainstream
 STT,Transport/Domestic
 COL,Urban Mainstream
 BAS,Urban Mainstream
-HEF,Agriculture
+HEF,Transport/Domestic
 BUR,Urban Mainstream
 CMN,Agriculture
 CHA,Urban Mainstream
@@ -153,7 +154,7 @@ BAI,Urban Mainstream
 WLN,Urban Mainstream
 HMF,Public sector
 SOS,Urban Mainstream
-CAY,Transport/Domestic
+CAY,Urban Mainstream
 NMD,Agriculture
 TFW,Urban Mainstream
 SHN,Public sector
@@ -163,43 +164,40 @@ RFW,Urban Mainstream
 KTT,Urban Mainstream
 HUN,Transport/Domestic
 BAN,Transport/Domestic
-WSK,Transport/Domestic
+WSK,Industry/Commerical/Domestic
 THR,Transport/Domestic
 BDF,Urban Mainstream
 WOK,Urban Mainstream
 MAI,Urban Mainstream
 NLN,Transport/Domestic
-SSO,Transport/Domestic
 CAT,Public sector
 WEA,Transport/Domestic
 AND,Agriculture
-HAG,Transport/Domestic
 ARU,Urban Mainstream
 SCA,Transport/Domestic
 FAL,Urban Mainstream
-RDG,Urban Mainstream
-NEL,Industry/Commerical/Domestic
+RDG,Public sector
+NEL,Transport/Domestic
 WBK,Transport/Domestic
 KEC,Public sector
 FLN,Transport/Domestic
-NWP,Transport/Domestic
+NWP,Urban Mainstream
 DAC,Urban Mainstream
-SWT,Transport/Domestic
 BRA,Transport/Domestic
-KWL,Transport/Domestic
+KWL,Urban Mainstream
 MSS,Transport/Domestic
 PKN,Transport/Domestic
 CHR,Transport/Domestic
 EHE,Transport/Domestic
 OXO,Public sector
-WNM,Transport/Domestic
+WNM,Urban Mainstream
 KIN,Industry/Commerical/Domestic
 STY,Urban Mainstream
 DRS,Agriculture
 SWL,Urban Mainstream
 GRT,Transport/Domestic
 BBD,Urban Mainstream
-SLG,Urban Mainstream
+SLG,Public sector
 SAL,Urban Mainstream
 REI,Urban Mainstream
 MUL,Agriculture
@@ -207,25 +205,25 @@ DND,Public sector
 DGY,Agriculture
 LAC,Urban Mainstream
 EDE,Transport/Domestic
-BGE,Transport/Domestic
+BGE,Urban Mainstream
 TEN,Transport/Domestic
 LBC,Transport/Domestic
 HOR,Transport/Domestic
 CCG,Agriculture
 WAW,Transport/Domestic
-NTL,Transport/Domestic
+NTL,Urban Mainstream
 PRE,Public sector
 SOX,Transport/Domestic
-ANN,Industry/Commerical/Domestic
+ANN,Agriculture
 SKE,Transport/Domestic
 SNO,Transport/Domestic
 IOW,Urban Mainstream
-NOW,Urban Mainstream
+NOW,Public sector
 ELI,Transport/Domestic
 THA,Agriculture
 MDB,Transport/Domestic
 BRE,Transport/Domestic
-MEA,Industry/Commerical/Domestic
+MEA,Agriculture
 BPL,Urban Mainstream
 VAL,Transport/Domestic
 STA,Transport/Domestic
@@ -238,7 +236,7 @@ EAT,Urban Mainstream
 VGL,Transport/Domestic
 TEI,Transport/Domestic
 NAY,Industry/Commerical/Domestic
-NHE,Transport/Domestic
+NHE,Urban Mainstream
 EXE,Public sector
 POW,Agriculture
 TON,Urban Mainstream
@@ -250,7 +248,7 @@ ASF,Urban Mainstream
 NUN,Urban Mainstream
 HAL,Urban Mainstream
 GLO,Urban Mainstream
-NEC,Transport/Domestic
+NEC,Urban Mainstream
 AMB,Transport/Domestic
 ASH,Urban Mainstream
 TES,Transport/Domestic
@@ -263,12 +261,11 @@ CAB,Public sector
 BRC,Urban Mainstream
 WEW,Urban Mainstream
 EHA,Transport/Domestic
-SEG,Transport/Domestic
 NEA,Transport/Domestic
 EAY,Agriculture
 CHI,Transport/Domestic
-RUS,Transport/Domestic
-SEV,Transport/Domestic
+RUS,Industry/Commerical/Domestic
+SEV,Urban Mainstream
 EST,Transport/Domestic
 STO,Transport/Domestic
 TUN,Urban Mainstream
@@ -280,7 +277,6 @@ CWY,Transport/Domestic
 NKE,Transport/Domestic
 FMO,Agriculture
 FAR,Urban Mainstream
-MEN,Transport/Domestic
 CHT,Public sector
 ANS,Transport/Domestic
 ERE,Urban Mainstream
@@ -288,21 +284,19 @@ SCB,Agriculture
 BRT,Urban Mainstream
 WLA,Transport/Domestic
 DAR,Urban Mainstream
-HIN,Transport/Domestic
+HIN,Urban Mainstream
 SHE,Urban Mainstream
 WYR,Transport/Domestic
 CRW,Urban Mainstream
 SST,Transport/Domestic
 SAY,Transport/Domestic
 WOX,Transport/Domestic
-SRI,Transport/Domestic
+SRI,Urban Mainstream
 WOT,Urban Mainstream
 RUG,Transport/Domestic
 SDE,Transport/Domestic
 MAS,Urban Mainstream
 EDU,Urban Mainstream
-SCE,Transport/Domestic
-CAR,Transport/Domestic
 ELN,Transport/Domestic
 DAL,Transport/Domestic
 GRA,Urban Mainstream
@@ -310,25 +304,23 @@ LIF,Transport/Domestic
 HER,Urban Mainstream
 NNO,Transport/Domestic
 CHS,Urban Mainstream
-SLA,Agriculture
 MSU,Transport/Domestic
 NWL,Transport/Domestic
-LEE,Transport/Domestic
-EAS,Urban Mainstream
+LEE,Urban Mainstream
+EAS,Public sector
 NED,Transport/Domestic
 FEN,Transport/Domestic
 BLA,Urban Mainstream
 CAN,Urban Mainstream
 WYE,Urban Mainstream
 BRM,Transport/Domestic
-WOC,Urban Mainstream
+WOC,Public sector
 LIC,Public sector
 WOI,Urban Mainstream
 SPE,Urban Mainstream
 GRY,Urban Mainstream
-STF,Agriculture
-NDE,Agriculture
-ALL,Agriculture
+STF,Industry/Commerical/Domestic
+NDE,Transport/Domestic
 HAT,Urban Mainstream
 BRX,Urban Mainstream
 ROH,Transport/Domestic
@@ -340,20 +332,18 @@ ERW,Urban Mainstream
 SHO,Transport/Domestic
 MRY,Agriculture
 HAO,Transport/Domestic
-MON,Agriculture
-TOF,Transport/Domestic
+MON,Transport/Domestic
+TOF,Urban Mainstream
 RUH,Urban Mainstream
 STG,Transport/Domestic
 THE,Urban Mainstream
 HPL,Transport/Domestic
-MLN,Transport/Domestic
+MLN,Urban Mainstream
 UTT,Transport/Domestic
 BAB,Transport/Domestic
-HIG,Industry/Commerical/Domestic
+HIG,Agriculture
 HAS,Urban Mainstream
-PEN,Transport/Domestic
-HAE,Agriculture
-SEL,Industry/Commerical/Domestic
+PEN,Urban Mainstream
 CAS,Urban Mainstream
 RUN,Public sector
 COT,Transport/Domestic
@@ -362,19 +352,19 @@ BUN,Urban Mainstream
 SUR,Transport/Domestic
 TAN,Transport/Domestic
 WDU,Public sector
-STV,Urban Mainstream
+STV,Public sector
 SHA,Transport/Domestic
 ROC,Urban Mainstream
 MOL,Transport/Domestic
 HAR,Urban Mainstream
 FOE,Transport/Domestic
 RED,Urban Mainstream
-AGB,Agriculture
+AGB,Transport/Domestic
 GOS,Urban Mainstream
-MDE,Agriculture
-BOS,Transport/Domestic
+MDE,Transport/Domestic
+BOS,Urban Mainstream
 FYL,Transport/Domestic
-HYN,Transport/Domestic
+HYN,Urban Mainstream
 EPS,Urban Mainstream
 MAV,Transport/Domestic
 BRW,Transport/Domestic
@@ -385,21 +375,15 @@ DEB,Agriculture
 ROS,Transport/Domestic
 BOT,Transport/Domestic
 AGY,Agriculture
-BGW,Transport/Domestic
+BGW,Urban Mainstream
 TOR,Agriculture
-COP,Transport/Domestic
-BAR,Industry/Commerical/Domestic
 NWA,Transport/Domestic
-MAL,Transport/Domestic
+MAL,Urban Mainstream
 ADU,Urban Mainstream
 RIB,Agriculture
 MTY,Urban Mainstream
-CRA,Agriculture
 OAD,Urban Mainstream
 WDE,Agriculture
-RYE,Agriculture
-EDN,Agriculture
-RIH,Agriculture
 MEL,Transport/Domestic
 CLK,Industry/Commerical/Domestic
 RUT,Transport/Domestic

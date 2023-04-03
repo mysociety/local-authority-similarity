@@ -2,7 +2,7 @@
     "name": "ruc_distance",
     "title": "Local authority RUC distance",
     "description": "The similarity between authorities is calculated by the proportion of the population living in urban, rural, and highly rural neighbourhoods. The population density is also used to help distinguish between authorities in entirely urban areas. \nThis UK-wide comparison is based on a [Composite Rural Urban Classification](https://mysociety.github.io/uk_ruc/) system. \n",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -48,7 +48,9 @@
         "change_log": {
             "0.1.0": "Initial load of data",
             "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on compoiste rural urban classifcation data emissions data\n' to 'The similarity between authorities is calculated by the proportion of the population living in urban, rural, and highly rural neighbourhoods. The population density is also used to help distinguish between authorities in entirely urban areas. \nThis UK-wide comparison is based on a [Composite Rural Urban Classification](https://mysociety.github.io/uk_ruc/) system. \n'",
-            "1.0.0": "lock data schema"
+            "1.0.0": "lock data schema",
+            "1.1.0-futurecouncils": "",
+            "1.1.0": "release 2023 data"
         }
     },
     "resources": [
@@ -56,7 +58,7 @@
             "title": "Local Authority RUC Similarity",
             "description": "Dataset of distance calculations based on RUC data.\nThis distance is based on:\n* Proportion of population in urban area\n* Proportion of population in rural area\n* Proportion of population in highly rural area\n",
             "custom": {
-                "row_count": 166872
+                "row_count": 154056
             },
             "path": "distance_map.csv",
             "name": "distance_map",
@@ -83,7 +85,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "MAV"
+                        "example": "ABC"
                     },
                     {
                         "name": "distance",
@@ -92,7 +94,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 0.0553889061031823
+                        "example": 8.31765186168898e-05
                     },
                     {
                         "name": "match",
@@ -101,7 +103,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 98.9
+                        "example": 0.0
                     },
                     {
                         "name": "position",
@@ -114,13 +116,13 @@
                     }
                 ]
             },
-            "hash": "3bef10c1bb15b0b9c866af92b3f85a08"
+            "hash": "9330120f4783f1b8709b90332749e743"
         },
         {
             "title": "Local authority rural-urban profile labels",
             "description": "A short category based on rural-urban profile for each local authority",
             "custom": {
-                "row_count": 409
+                "row_count": 394
             },
             "path": "la_labels.csv",
             "name": "la_labels",
@@ -153,17 +155,17 @@
                                 "Urban with rural areas"
                             ]
                         },
-                        "example": "Sparse and rural"
+                        "example": "Rural"
                     }
                 ]
             },
-            "hash": "f2fa16d6a33d5435c49b1a5d929addbb"
+            "hash": "78498b548c85ab138a2a3472585cba2c"
         },
         {
             "title": "Local authority rural-urban labels",
             "description": "Map of short labels to longer descriptions for rural-urban categories.",
             "custom": {
-                "row_count": 4
+                "row_count": 5
             },
             "path": "label_desc.csv",
             "name": "label_desc",
@@ -187,7 +189,7 @@
                                 "Urban with rural areas"
                             ]
                         },
-                        "example": "Sparse and rural"
+                        "example": "Rural"
                     },
                     {
                         "name": "desc",
@@ -202,7 +204,7 @@
                                 "Local authority mostly made up of urban neighbourhoods, but with a significant number of rural neighbourhoods"
                             ]
                         },
-                        "example": "Local authority predominately made up of large and low-density rural neighbourhoods"
+                        "example": "Local authority mostly made up of urban neighbourhoods, but with a significant number of rural neighbourhoods"
                     }
                 ]
             },

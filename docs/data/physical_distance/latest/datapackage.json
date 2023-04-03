@@ -2,7 +2,7 @@
     "name": "physical_distance",
     "title": "Local authority physical distance",
     "description": "This comparison set shows councils which are geographically close to the selected council.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -48,7 +48,9 @@
         "change_log": {
             "0.1.0": "Initial load of data",
             "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on physical data\n' to 'This comparison set shows councils which are geographically close to the selected council.'",
-            "1.0.0": "lock data schema"
+            "1.0.0": "lock data schema",
+            "1.1.0-futurecouncils": "",
+            "1.1.0": "release 2023 data"
         }
     },
     "resources": [
@@ -56,7 +58,7 @@
             "title": "Local Authority Location Similarity",
             "description": "Dataset of distance calculations based on Location similarity\nThis is based on the x,y distance between centroids.\n",
             "custom": {
-                "row_count": 166872
+                "row_count": 154056
             },
             "path": "distance_map.csv",
             "name": "distance_map",
@@ -83,7 +85,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "NMD"
+                        "example": "ABC"
                     },
                     {
                         "name": "distance",
@@ -92,7 +94,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 0.2345279823354604
+                        "example": 0.017487809745906
                     },
                     {
                         "name": "match",
@@ -101,7 +103,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 95.1
+                        "example": 0.0
                     },
                     {
                         "name": "position",
@@ -114,13 +116,13 @@
                     }
                 ]
             },
-            "hash": "a043f0e45de64f57c760c78666a5f7e0"
+            "hash": "d984bcedf1a9705ee21ab15f8d530407"
         },
         {
             "title": "Local authority location profile labels",
             "description": "A short category based on location profile for each local authority",
             "custom": {
-                "row_count": 409
+                "row_count": 394
             },
             "path": "la_labels.csv",
             "name": "la_labels",
@@ -151,27 +153,27 @@
                                 "Scotland",
                                 "South East",
                                 "Wales",
-                                "North West",
                                 "East Midlands",
                                 "East of England",
                                 "South West",
+                                "North West",
                                 "London",
                                 "West Midlands",
                                 "Yorkshire and The Humber",
                                 "North East"
                             ]
                         },
-                        "example": "Northern Ireland"
+                        "example": "East Midlands"
                     }
                 ]
             },
-            "hash": "c9649385bb6a1b4b7e6ba697f938ba33"
+            "hash": "4ab2d5ecba97c56dcba1ca7374307ce0"
         },
         {
             "title": "Local authority location labels",
             "description": "Map of short labels to longer descriptions for location categories (This is just region).",
             "custom": {
-                "row_count": 12
+                "row_count": 13
             },
             "path": "label_desc.csv",
             "name": "label_desc",
@@ -193,17 +195,17 @@
                                 "Scotland",
                                 "South East",
                                 "Wales",
-                                "North West",
                                 "East Midlands",
                                 "East of England",
                                 "South West",
+                                "North West",
                                 "London",
                                 "West Midlands",
                                 "Yorkshire and The Humber",
                                 "North East"
                             ]
                         },
-                        "example": "Northern Ireland"
+                        "example": "East Midlands"
                     },
                     {
                         "name": "desc",
@@ -216,21 +218,21 @@
                                 "Local authorities in Scotland",
                                 "Local authorities in South East",
                                 "Local authorities in Wales",
-                                "Local authorities in North West",
                                 "Local authorities in East Midlands",
                                 "Local authorities in East of England",
                                 "Local authorities in South West",
+                                "Local authorities in North West",
                                 "Local authorities in London",
                                 "Local authorities in West Midlands",
                                 "Local authorities in Yorkshire and The Humber",
                                 "Local authorities in North East"
                             ]
                         },
-                        "example": "Local authorities in Northern Ireland"
+                        "example": "Local authorities in East Midlands"
                     }
                 ]
             },
-            "hash": "4a9a852530c463a53f1a41e18e3aeb53"
+            "hash": "ec0f00ba967c8811f6125998467a9522"
         }
     ]
 }

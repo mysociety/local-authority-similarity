@@ -1,0 +1,53 @@
+title: Local authority location labels
+description: Map of short labels to longer descriptions for location categories (This
+  is just region).
+custom:
+  row_count: 13
+path: label_desc.csv
+name: label_desc
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: label
+    type: string
+    description: Short label for location profile.
+    constraints:
+      unique: true
+      enum:
+      - Northern Ireland
+      - Scotland
+      - South East
+      - Wales
+      - East Midlands
+      - East of England
+      - South West
+      - North West
+      - London
+      - West Midlands
+      - Yorkshire and The Humber
+      - North East
+    example: East Midlands
+  - name: desc
+    type: string
+    description: Longer description of location profile.
+    constraints:
+      unique: true
+      enum:
+      - Local authorities in Northern Ireland
+      - Local authorities in Scotland
+      - Local authorities in South East
+      - Local authorities in Wales
+      - Local authorities in East Midlands
+      - Local authorities in East of England
+      - Local authorities in South West
+      - Local authorities in North West
+      - Local authorities in London
+      - Local authorities in West Midlands
+      - Local authorities in Yorkshire and The Humber
+      - Local authorities in North East
+    example: Local authorities in East Midlands
+hash: ec0f00ba967c8811f6125998467a9522

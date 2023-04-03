@@ -2,7 +2,7 @@
     "name": "composite_distance",
     "title": "Local authority composite distance",
     "description": "This comparison set combines all the other measures into a single list of similar councils.\nCouncils may be highly rated because they are very similar in one degree, or because they are slightly similar across several.\n",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -20,7 +20,7 @@
     "custom": {
         "build": "local_authority_similarity.__main__:build_composite",
         "tests": [
-            "test_emissions_distance"
+            "test_local_authority_similarity"
         ],
         "dataset_order": 1,
         "download_options": {
@@ -48,7 +48,9 @@
         "change_log": {
             "0.1.0": "Initial load of data",
             "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on a composite of our other measures\n' to 'This comparison set combines all the other measures into a single list of similar councils.\nCouncils may be highly rated because they are very similar in one degree, or because they are slightly similar across several.\n'",
-            "1.0.0": "lock data schema"
+            "1.0.0": "lock data schema",
+            "1.1.0-futurecouncils": "",
+            "1.1.0": "release 2023 data"
         }
     },
     "resources": [
@@ -56,7 +58,7 @@
             "title": "Local Authority Composite Similarity",
             "description": "Dataset of distance calculations based on other measures of distance data.\nThis distance is based on:\n* Emissions profile\n* IMD profile\n* Rural-ruban profile\n* Physical distance\n",
             "custom": {
-                "row_count": 166872
+                "row_count": 154056
             },
             "path": "distance_map.csv",
             "name": "distance_map",
@@ -83,7 +85,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "MEA"
+                        "example": "ABC"
                     },
                     {
                         "name": "distance",
@@ -92,7 +94,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 5.586884337096948
+                        "example": 0.6013824212265125
                     },
                     {
                         "name": "match",
@@ -101,7 +103,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 64.7
+                        "example": 0.0
                     },
                     {
                         "name": "position",
@@ -110,17 +112,17 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 2.0
+                        "example": 1.0
                     }
                 ]
             },
-            "hash": "587175855448a14386dc2e2f9b3a9dfe"
+            "hash": "13e966cb95329df7e5baa37ceeea64d8"
         },
         {
             "title": "Local authority composite profile labels",
             "description": "A short category based on composite profile for each local authority",
             "custom": {
-                "row_count": 409
+                "row_count": 394
             },
             "path": "la_labels.csv",
             "name": "la_labels",
@@ -147,17 +149,17 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Northern Ireland; Emissions: Industry/Commerical/Domestic; 1st IMD quintile; Sparse and rural"
+                        "example": "East Midlands; Emissions: Agriculture; 4th IMD quintile; Urban with rural areas"
                     }
                 ]
             },
-            "hash": "07bc158a76e5893e1d239abc7c37c9ab"
+            "hash": "a35c86afb5ea3ff054334ba7b150682f"
         },
         {
             "title": "Local authority composite labels",
             "description": "Map of short labels to longer descriptions for composite categories.",
             "custom": {
-                "row_count": 1440
+                "row_count": 1441
             },
             "path": "label_desc.csv",
             "name": "label_desc",
@@ -175,7 +177,7 @@
                         "constraints": {
                             "unique": true
                         },
-                        "example": "Northern Ireland; Emissions: Urban Mainstream; 1st IMD quintile; Sparse and rural"
+                        "example": "East Midlands; Emissions: Agriculture; 1st IMD quintile; Rural"
                     },
                     {
                         "name": "desc",
@@ -184,11 +186,11 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": "Below average for all emissions scores; in most deprived quintile (20%); Local authority predominately made up of large and low-density rural neighbourhoods"
+                        "example": "Above average agriculture, domestic score; in least deprived quintile (20%); Local authority mostly made up of urban neighbourhoods, but with a significant number of rural neighbourhoods"
                     }
                 ]
             },
-            "hash": "4afe995b8f68a4ee6e7e489b426ad48a"
+            "hash": "27dae1251fbfea28220f3ac942facf13"
         }
     ]
 }

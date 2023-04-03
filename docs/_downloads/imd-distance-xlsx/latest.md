@@ -5,6 +5,6 @@ package: imd_distance
 title: imd_distance_xlsx
 filename: imd_distance.xlsx
 version: latest
-full_version: 1.0.0
+full_version: 1.1.0
 file: /data/imd_distance/latest/imd_distance.xlsx
 ---

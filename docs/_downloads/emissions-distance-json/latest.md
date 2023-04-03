@@ -5,6 +5,6 @@ package: emissions_distance
 title: emissions_distance_json
 filename: emissions_distance.json
 version: latest
-full_version: 1.0.0
+full_version: 1.1.0
 file: /data/emissions_distance/latest/emissions_distance.json
 ---
