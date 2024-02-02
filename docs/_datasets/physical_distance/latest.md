@@ -42,6 +42,10 @@ custom:
     1.0.0: lock data schema
     1.1.0-futurecouncils: ''
     1.1.0: release 2023 data
+    1.2.0: 'Change in data for resource(s): distance_map,la_labels'
+  datasette:
+    about: Info & Downloads
+    about_url: https://pages.mysociety.org/local_authority_similarity/datasets/physical_distance/1_2_0
   formats:
     csv: true
     parquet: true
@@ -50,7 +54,10 @@ resources:
   description: "Dataset of distance calculations based on Location similarity\nThis\
     \ is based on the x,y distance between centroids.\n"
   custom:
-    row_count: 154056
+    row_count: 154842
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/physical_distance/1_2_0#distance_map
   path: distance_map.csv
   name: distance_map
   profile: tabular-data-resource
@@ -78,7 +85,7 @@ resources:
         except for comparisons)
       constraints:
         unique: false
-      example: 0.017487809745906
+      example: 0.0
     - name: match
       type: number
       description: A score between 0 and 100 indicting how similar a council is (based
@@ -93,11 +100,14 @@ resources:
       constraints:
         unique: false
       example: 1.0
-  hash: d984bcedf1a9705ee21ab15f8d530407
+  hash: d3e6365e1f4ba42d8aa5554a0b06dddd
 - title: Local authority location profile labels
   description: A short category based on location profile for each local authority
   custom:
-    row_count: 394
+    row_count: 395
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/physical_distance/1_2_0#la_labels
   path: la_labels.csv
   name: la_labels
   profile: tabular-data-resource
@@ -119,25 +129,28 @@ resources:
       constraints:
         unique: false
         enum:
+        - East Midlands
+        - East of England
+        - London
+        - North East
+        - North West
         - Northern Ireland
         - Scotland
         - South East
-        - Wales
-        - East Midlands
-        - East of England
         - South West
-        - North West
-        - London
+        - Wales
         - West Midlands
         - Yorkshire and The Humber
-        - North East
       example: East Midlands
-  hash: 4ab2d5ecba97c56dcba1ca7374307ce0
+  hash: 1b5d10a4f9cc07433529d96cc2f7dd7d
 - title: Local authority location labels
   description: Map of short labels to longer descriptions for location categories
     (This is just region).
   custom:
     row_count: 13
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/physical_distance/1_2_0#label_desc
   path: label_desc.csv
   name: label_desc
   profile: tabular-data-resource
@@ -153,18 +166,18 @@ resources:
       constraints:
         unique: true
         enum:
+        - East Midlands
+        - East of England
+        - London
+        - North East
+        - North West
         - Northern Ireland
         - Scotland
         - South East
-        - Wales
-        - East Midlands
-        - East of England
         - South West
-        - North West
-        - London
+        - Wales
         - West Midlands
         - Yorkshire and The Humber
-        - North East
       example: East Midlands
     - name: desc
       type: string
@@ -172,20 +185,20 @@ resources:
       constraints:
         unique: true
         enum:
+        - Local authorities in East Midlands
+        - Local authorities in East of England
+        - Local authorities in London
+        - Local authorities in North East
+        - Local authorities in North West
         - Local authorities in Northern Ireland
         - Local authorities in Scotland
         - Local authorities in South East
-        - Local authorities in Wales
-        - Local authorities in East Midlands
-        - Local authorities in East of England
         - Local authorities in South West
-        - Local authorities in North West
-        - Local authorities in London
+        - Local authorities in Wales
         - Local authorities in West Midlands
         - Local authorities in Yorkshire and The Humber
-        - Local authorities in North East
       example: Local authorities in East Midlands
   hash: ec0f00ba967c8811f6125998467a9522
-full_version: 1.1.0
+full_version: 1.2.0
 permalink: /datasets/physical_distance/latest
 ---

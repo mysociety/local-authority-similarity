@@ -32,7 +32,7 @@ BNH,South East; Emissions: Urban Mainstream; 3rd IMD quintile; Urban
 BNS,Yorkshire and The Humber; Emissions: Industry/Commerical/Domestic; 1st IMD quintile; Urban
 BOL,North West; Emissions: Urban Mainstream; 1st IMD quintile; Urban
 BOS,East Midlands; Emissions: Urban Mainstream; 2nd IMD quintile; Rural
-BOT,East Midlands; Emissions: Transport/Domestic; 3rd IMD quintile; Urban with rural areas
+BOT,East Midlands; Emissions: Urban Mainstream; 3rd IMD quintile; Urban with rural areas
 BPC,South West; Emissions: Urban Mainstream; 4th IMD quintile; Urban
 BPL,North West; Emissions: Urban Mainstream; 1st IMD quintile; Urban
 BRA,East of England; Emissions: Transport/Domestic; 4th IMD quintile; Urban with rural areas
@@ -60,7 +60,7 @@ CBF,East of England; Emissions: Urban Mainstream; 5th IMD quintile; Urban with r
 CCG,Northern Ireland; Emissions: Agriculture; 1st IMD quintile; Sparse and rural
 CGN,Wales; Emissions: Agriculture; 4th IMD quintile; Sparse and rural
 CHA,East Midlands; Emissions: Urban Mainstream; 5th IMD quintile; Urban
-CHE,North West; Emissions: Transport/Domestic; 4th IMD quintile; Urban with rural areas
+CHE,North West; Emissions: Transport/Domestic; 4th IMD quintile; Urban
 CHI,South East; Emissions: Transport/Domestic; 5th IMD quintile; Rural
 CHL,East of England; Emissions: Transport/Domestic; 5th IMD quintile; Urban with rural areas
 CHO,North West; Emissions: Urban Mainstream; 4th IMD quintile; Urban with rural areas
@@ -71,7 +71,7 @@ CHW,North West; Emissions: Transport/Domestic; 4th IMD quintile; Urban with rura
 CLD,Yorkshire and The Humber; Emissions: Urban Mainstream; 2nd IMD quintile; Urban
 CLK,Scotland; Emissions: Industry/Commerical/Domestic; 3rd IMD quintile; Rural
 CMD,London; Emissions: Public sector; 3rd IMD quintile; Urban
-CMN,Wales; Emissions: Agriculture; 3rd IMD quintile; Rural
+CMN,Wales; Emissions: Agriculture; 3rd IMD quintile; Urban with rural areas
 COL,East of England; Emissions: Urban Mainstream; 4th IMD quintile; Urban with rural areas
 CON,South West; Emissions: Transport/Domestic; 3rd IMD quintile; Rural
 COT,South West; Emissions: Transport/Domestic; 5th IMD quintile; Rural
@@ -85,7 +85,7 @@ DAC,East of England; Emissions: Urban Mainstream; 5th IMD quintile; Urban
 DAL,North East; Emissions: Transport/Domestic; 2nd IMD quintile; Urban
 DAR,South East; Emissions: Urban Mainstream; 3rd IMD quintile; Urban
 DBY,West Midlands; Emissions: Transport/Domestic; 4th IMD quintile; Urban with rural areas
-DEB,East Midlands; Emissions: Agriculture; 5th IMD quintile; Sparse and rural
+DEB,East Midlands; Emissions: Agriculture; 5th IMD quintile; Rural
 DEN,Wales; Emissions: Transport/Domestic; 3rd IMD quintile; Rural
 DER,East Midlands; Emissions: Urban Mainstream; 2nd IMD quintile; Urban
 DEV,South West; Emissions: Transport/Domestic; 4th IMD quintile; Rural
@@ -201,7 +201,7 @@ MAN,North West; Emissions: Public sector; 1st IMD quintile; Urban
 MAS,East Midlands; Emissions: Urban Mainstream; 2nd IMD quintile; Urban
 MAV,West Midlands; Emissions: Transport/Domestic; 4th IMD quintile; Sparse and rural
 MDB,North East; Emissions: Transport/Domestic; 1st IMD quintile; Urban
-MDE,South West; Emissions: Transport/Domestic; 4th IMD quintile; Rural
+MDE,South West; Emissions: Agriculture; 4th IMD quintile; Rural
 MDW,South East; Emissions: Urban Mainstream; 2nd IMD quintile; Urban
 MEA,Northern Ireland; Emissions: Agriculture; 1st IMD quintile; Urban with rural areas
 MEL,East Midlands; Emissions: Transport/Domestic; 5th IMD quintile; Urban with rural areas
@@ -230,7 +230,7 @@ NGM,East Midlands; Emissions: Public sector; 1st IMD quintile; Urban
 NHE,East of England; Emissions: Urban Mainstream; 5th IMD quintile; Urban
 NKE,East Midlands; Emissions: Transport/Domestic; 5th IMD quintile; Rural
 NLK,Scotland; Emissions: Urban Mainstream; 2nd IMD quintile; Urban
-NLN,Yorkshire and The Humber; Emissions: Transport/Domestic; 3rd IMD quintile; Rural
+NLN,Yorkshire and The Humber; Emissions: Transport/Domestic; 3rd IMD quintile; Urban with rural areas
 NMD,Northern Ireland; Emissions: Agriculture; 1st IMD quintile; Sparse and rural
 NNO,East of England; Emissions: Transport/Domestic; 3rd IMD quintile; Sparse and rural
 NNT,East Midlands; Emissions: Transport/Domestic; 3rd IMD quintile; Urban with rural areas
@@ -390,5 +390,6 @@ WYC,West Midlands; Emissions: Transport/Domestic; 4th IMD quintile; Rural
 WYCA,Yorkshire and The Humber; Emissions: Urban Mainstream; 2nd IMD quintile; Urban
 WYE,West Midlands; Emissions: Urban Mainstream; 3rd IMD quintile; Urban with rural areas
 WYR,North West; Emissions: Transport/Domestic; 3rd IMD quintile; Urban with rural areas
+YNYC,Yorkshire and The Humber; Emissions: Transport/Domestic; 5th IMD quintile; Urban with rural areas
 YOR,Yorkshire and The Humber; Emissions: Urban Mainstream; 5th IMD quintile; Urban
 ZET,Scotland; Emissions: Agriculture; 5th IMD quintile; Sparse and rural

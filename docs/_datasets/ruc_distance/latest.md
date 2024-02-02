@@ -49,6 +49,10 @@ custom:
     1.0.0: lock data schema
     1.1.0-futurecouncils: ''
     1.1.0: release 2023 data
+    1.2.0: 'Change in data for resource(s): distance_map,la_labels'
+  datasette:
+    about: Info & Downloads
+    about_url: https://pages.mysociety.org/local_authority_similarity/datasets/ruc_distance/1_2_0
   formats:
     csv: true
     parquet: true
@@ -58,7 +62,10 @@ resources:
     \ is based on:\n* Proportion of population in urban area\n* Proportion of population\
     \ in rural area\n* Proportion of population in highly rural area\n"
   custom:
-    row_count: 154056
+    row_count: 154842
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/ruc_distance/1_2_0#distance_map
   path: distance_map.csv
   name: distance_map
   profile: tabular-data-resource
@@ -86,7 +93,7 @@ resources:
         except for comparisons)
       constraints:
         unique: false
-      example: 8.31765186168898e-05
+      example: 8.324498772271927e-05
     - name: match
       type: number
       description: A score between 0 and 100 indicting how similar a council is (based
@@ -101,11 +108,14 @@ resources:
       constraints:
         unique: false
       example: 1.0
-  hash: 9330120f4783f1b8709b90332749e743
+  hash: f2665f5c1d59212192aa615133b4e8f7
 - title: Local authority rural-urban profile labels
   description: A short category based on rural-urban profile for each local authority
   custom:
-    row_count: 394
+    row_count: 395
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/ruc_distance/1_2_0#la_labels
   path: la_labels.csv
   name: la_labels
   profile: tabular-data-resource
@@ -127,16 +137,19 @@ resources:
       constraints:
         unique: false
         enum:
+        - Rural
         - Sparse and rural
         - Urban
-        - Rural
         - Urban with rural areas
       example: Rural
-  hash: 78498b548c85ab138a2a3472585cba2c
+  hash: eda432aba80adf3d842b25c07e6e9417
 - title: Local authority rural-urban labels
   description: Map of short labels to longer descriptions for rural-urban categories.
   custom:
     row_count: 5
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/ruc_distance/1_2_0#label_desc
   path: label_desc.csv
   name: label_desc
   profile: tabular-data-resource
@@ -152,9 +165,9 @@ resources:
       constraints:
         unique: true
         enum:
+        - Rural
         - Sparse and rural
         - Urban
-        - Rural
         - Urban with rural areas
       example: Rural
     - name: desc
@@ -163,14 +176,14 @@ resources:
       constraints:
         unique: true
         enum:
-        - Local authority predominately made up of large and low-density rural neighbourhoods
-        - Local authority predominately made up of urban neighbourhoods
-        - Local authority predominately made up of rural neighbourhoods
         - Local authority mostly made up of urban neighbourhoods, but with a significant
           number of rural neighbourhoods
+        - Local authority predominately made up of large and low-density rural neighbourhoods
+        - Local authority predominately made up of rural neighbourhoods
+        - Local authority predominately made up of urban neighbourhoods
       example: Local authority mostly made up of urban neighbourhoods, but with a
         significant number of rural neighbourhoods
   hash: 7279f4e02984868d00f7dd83dfdda036
-full_version: 1.1.0
+full_version: 1.2.0
 permalink: /datasets/ruc_distance/latest
 ---

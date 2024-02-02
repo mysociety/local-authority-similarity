@@ -1,0 +1,38 @@
+title: Local authority IMD labels
+description: Map of short labels to longer descriptions for IMD categories.
+custom:
+  row_count: 6
+path: label_desc.csv
+name: label_desc
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: label
+    type: string
+    description: Short label for IMD profile.
+    constraints:
+      unique: true
+      enum:
+      - 1st IMD quintile
+      - 2nd IMD quintile
+      - 3rd IMD quintile
+      - 4th IMD quintile
+      - 5th IMD quintile
+    example: 1st IMD quintile
+  - name: desc
+    type: string
+    description: Longer description of IMD profile.
+    constraints:
+      unique: true
+      enum:
+      - Councils in least deprived quintile (20%)
+      - Councils in middle deprivation quintile (20%)
+      - Councils in most deprived quintile (20%)
+      - Councils in second least deprived quintile (20%)
+      - Councils in second most deprived quintile (20%)
+    example: Councils in least deprived quintile (20%)
+hash: 38b888ff0ae31f6e3f03ccc9b0417440

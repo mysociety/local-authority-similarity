@@ -2,7 +2,7 @@
     "name": "composite_distance",
     "title": "Local authority composite distance",
     "description": "This comparison set combines all the other measures into a single list of similar councils.\nCouncils may be highly rated because they are very similar in one degree, or because they are slightly similar across several.\n",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -50,7 +50,12 @@
             "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on a composite of our other measures\n' to 'This comparison set combines all the other measures into a single list of similar councils.\nCouncils may be highly rated because they are very similar in one degree, or because they are slightly similar across several.\n'",
             "1.0.0": "lock data schema",
             "1.1.0-futurecouncils": "",
-            "1.1.0": "release 2023 data"
+            "1.1.0": "release 2023 data",
+            "1.2.0": "Change in data for resource(s): distance_map,la_labels"
+        },
+        "datasette": {
+            "about": "Info & Downloads",
+            "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0"
         }
     },
     "resources": [
@@ -58,7 +63,11 @@
             "title": "Local Authority Composite Similarity",
             "description": "Dataset of distance calculations based on other measures of distance data.\nThis distance is based on:\n* Emissions profile\n* IMD profile\n* Rural-ruban profile\n* Physical distance\n",
             "custom": {
-                "row_count": 154056
+                "row_count": 154842,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0#distance_map"
+                }
             },
             "path": "distance_map.csv",
             "name": "distance_map",
@@ -94,7 +103,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 0.6013824212265125
+                        "example": 0.6017390960095425
                     },
                     {
                         "name": "match",
@@ -116,13 +125,17 @@
                     }
                 ]
             },
-            "hash": "13e966cb95329df7e5baa37ceeea64d8"
+            "hash": "d4e3e4faf5be7ba74eade2a06ca2c72c"
         },
         {
             "title": "Local authority composite profile labels",
             "description": "A short category based on composite profile for each local authority",
             "custom": {
-                "row_count": 394
+                "row_count": 395,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0#la_labels"
+                }
             },
             "path": "la_labels.csv",
             "name": "la_labels",
@@ -153,13 +166,17 @@
                     }
                 ]
             },
-            "hash": "a35c86afb5ea3ff054334ba7b150682f"
+            "hash": "5c7f3fabe4c73ad429c9c5b1051988a3"
         },
         {
             "title": "Local authority composite labels",
             "description": "Map of short labels to longer descriptions for composite categories.",
             "custom": {
-                "row_count": 1441
+                "row_count": 1441,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0#label_desc"
+                }
             },
             "path": "label_desc.csv",
             "name": "label_desc",

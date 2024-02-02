@@ -59,7 +59,7 @@ CBF,Urban with rural areas
 CCG,Sparse and rural
 CGN,Sparse and rural
 CHA,Urban
-CHE,Urban with rural areas
+CHE,Urban
 CHI,Rural
 CHL,Urban with rural areas
 CHO,Urban with rural areas
@@ -70,7 +70,7 @@ CHW,Urban with rural areas
 CLD,Urban
 CLK,Rural
 CMD,Urban
-CMN,Rural
+CMN,Urban with rural areas
 COL,Urban with rural areas
 CON,Rural
 COT,Rural
@@ -82,7 +82,7 @@ CWY,Urban with rural areas
 DAC,Urban
 DAL,Urban
 DAR,Urban
-DEB,Sparse and rural
+DEB,Rural
 DEN,Rural
 DER,Urban
 DGY,Sparse and rural
@@ -212,7 +212,7 @@ NGM,Urban
 NHE,Urban
 NKE,Rural
 NLK,Urban
-NLN,Rural
+NLN,Urban with rural areas
 NMD,Sparse and rural
 NNO,Sparse and rural
 NNT,Urban with rural areas
@@ -392,3 +392,4 @@ TVCA,Urban
 WECA,Urban
 WMCA,Urban
 WYCA,Urban
+YNYC,Urban with rural areas

@@ -1,0 +1,49 @@
+title: Local Authority Composite Similarity
+description: "Dataset of distance calculations based on other measures of distance\
+  \ data.\nThis distance is based on:\n* Emissions profile\n* IMD profile\n* Rural-ruban\
+  \ profile\n* Physical distance\n"
+custom:
+  row_count: 154842
+path: distance_map.csv
+name: distance_map
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: local-authority-code_A
+    type: string
+    description: A three/four letter code for the local authority
+    constraints:
+      unique: false
+    example: ABC
+  - name: local-authority-code_B
+    type: string
+    description: A three/four letter code for the local authority
+    constraints:
+      unique: false
+    example: ABC
+  - name: distance
+    type: number
+    description: The distance between the two local authorities (not meaningful except
+      for comparisons)
+    constraints:
+      unique: false
+    example: 0.6017390960095425
+  - name: match
+    type: number
+    description: A score between 0 and 100 indicting how similar a council is (based
+      on all known distances for a council)
+    constraints:
+      unique: false
+    example: 0.0
+  - name: position
+    type: number
+    description: The rank of how much local authority B is similar to local authority
+      A (1 is most similar).
+    constraints:
+      unique: false
+    example: 1.0
+hash: d4e3e4faf5be7ba74eade2a06ca2c72c

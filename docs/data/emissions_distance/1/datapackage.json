@@ -2,7 +2,7 @@
     "name": "emissions_distance",
     "title": "Local authority emissions distance",
     "description": "This comparison set shows councils who have a similar emissions profile to each other. \nThe goal is to try and draw comparisons between similar emissions in similar circumstances. The five different categories in the BEIS dataset are adjusted in different ways, and then councils are positioned on how different they are to each other. \n",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -50,7 +50,12 @@
             "0.1.1": "description changed from 'Rankings, match-scores and labels for local authorities based on BEIS 2020 emissions data\n' to 'This comparison set shows councils who have a similar emissions profile to each other. \nThe goal is to try and draw comparisons between similar emissions in similar circumstances. The five different categories in the BEIS dataset are adjusted in different ways, and then councils are positioned on how different they are to each other. \n'",
             "1.0.0": "lock data schema",
             "1.1.0-futurecouncils": "",
-            "1.1.0": "release 2023 data"
+            "1.1.0": "release 2023 data",
+            "1.2.0": "Change in data for resource(s): distance_map,la_labels"
+        },
+        "datasette": {
+            "about": "Info & Downloads",
+            "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/emissions_distance/1_2_0"
         }
     },
     "resources": [
@@ -58,7 +63,11 @@
             "title": "Local Authority Emissions Similarity",
             "description": "Dataset of distance calculations based on BEIS Emissions data.\nThis distance is based on:\n* Winsorized population density\n* Public Sector emissions per person (winsorised)\n* Transport Emissions per person (winsorised)\n* Domestic emissions per person\n* Industrial emissions per unit of GDP\n* Commerical emissions per unit of GDP\n* Agriculture emissions per unit of GDP\n",
             "custom": {
-                "row_count": 154056
+                "row_count": 154842,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/emissions_distance/1_2_0#distance_map"
+                }
             },
             "path": "distance_map.csv",
             "name": "distance_map",
@@ -94,7 +103,7 @@
                         "constraints": {
                             "unique": false
                         },
-                        "example": 0.2662063092538874
+                        "example": 0.2663379651760705
                     },
                     {
                         "name": "match",
@@ -116,13 +125,17 @@
                     }
                 ]
             },
-            "hash": "8cb42cea03dbadd878ab9d9b333f5170"
+            "hash": "47361a4b9168248f5222738f004b7197"
         },
         {
             "title": "Local authority emissions profile labels",
             "description": "A short category based on emissions profile for each local authority",
             "custom": {
-                "row_count": 394
+                "row_count": 395,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/emissions_distance/1_2_0#la_labels"
+                }
             },
             "path": "la_labels.csv",
             "name": "la_labels",
@@ -149,25 +162,29 @@
                         "constraints": {
                             "unique": false,
                             "enum": [
-                                "Public sector",
-                                "Urban Mainstream",
-                                "Transport/Domestic",
                                 "Agriculture",
+                                "City of London",
                                 "Industry/Commerical/Domestic",
-                                "City of London"
+                                "Public sector",
+                                "Transport/Domestic",
+                                "Urban Mainstream"
                             ]
                         },
                         "example": "Agriculture"
                     }
                 ]
             },
-            "hash": "7cae68d699a732f0742dac78d717cb1d"
+            "hash": "a65f860231a948495e2fc92e75422025"
         },
         {
             "title": "Local authority emissions labels",
             "description": "Map of short labels to longer descriptions for emissions categories.",
             "custom": {
-                "row_count": 7
+                "row_count": 7,
+                "datasette": {
+                    "about": "Info & Downloads",
+                    "about_url": "https://pages.mysociety.org/local_authority_similarity/datasets/emissions_distance/1_2_0#label_desc"
+                }
             },
             "path": "label_desc.csv",
             "name": "label_desc",
@@ -185,12 +202,12 @@
                         "constraints": {
                             "unique": true,
                             "enum": [
-                                "Public sector",
-                                "Urban Mainstream",
-                                "Transport/Domestic",
                                 "Agriculture",
+                                "City of London",
                                 "Industry/Commerical/Domestic",
-                                "City of London"
+                                "Public sector",
+                                "Transport/Domestic",
+                                "Urban Mainstream"
                             ]
                         },
                         "example": "Agriculture"
@@ -202,12 +219,12 @@
                         "constraints": {
                             "unique": true,
                             "enum": [
-                                "Well above average public sector (government, education, health), below average in other areas.",
-                                "Below average for all emissions scores",
-                                "Above average transport/domestic score",
                                 "Above average agriculture, domestic score",
                                 "Above average for industry/domestic/doemestic, below average public sector emissions.",
-                                "City of London does not have a comparable emissions profile"
+                                "Above average transport/domestic score",
+                                "Below average for all emissions scores",
+                                "City of London does not have a comparable emissions profile",
+                                "Well above average public sector (government, education, health), below average in other areas."
                             ]
                         },
                         "example": "Above average agriculture, domestic score"

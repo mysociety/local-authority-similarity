@@ -1,0 +1,42 @@
+title: Local authority emissions labels
+description: Map of short labels to longer descriptions for emissions categories.
+custom:
+  row_count: 7
+path: label_desc.csv
+name: label_desc
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: label
+    type: string
+    description: Short label for emissions profile.
+    constraints:
+      unique: true
+      enum:
+      - Agriculture
+      - City of London
+      - Industry/Commerical/Domestic
+      - Public sector
+      - Transport/Domestic
+      - Urban Mainstream
+    example: Agriculture
+  - name: desc
+    type: string
+    description: Longer description of emissions profile.
+    constraints:
+      unique: true
+      enum:
+      - Above average agriculture, domestic score
+      - Above average for industry/domestic/doemestic, below average public sector
+        emissions.
+      - Above average transport/domestic score
+      - Below average for all emissions scores
+      - City of London does not have a comparable emissions profile
+      - Well above average public sector (government, education, health), below average
+        in other areas.
+    example: Above average agriculture, domestic score
+hash: 5c5b45d7a967ca4b2783394d38fe55b2

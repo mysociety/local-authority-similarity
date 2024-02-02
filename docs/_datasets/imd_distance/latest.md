@@ -58,6 +58,10 @@ custom:
     1.0.0: lock data schema
     1.1.0-futurecouncils: ''
     1.1.0: release 2023 data
+    1.2.0: 'Change in data for resource(s): distance_map,la_labels'
+  datasette:
+    about: Info & Downloads
+    about_url: https://pages.mysociety.org/local_authority_similarity/datasets/imd_distance/1_2_0
   formats:
     csv: true
     parquet: true
@@ -68,7 +72,10 @@ resources:
     \ LSOAs in IMD quintile 1\n* proportion of LA population in LSOAs in IMD quintile\
     \ 2,3\n* proportion of LA population in LSOAs in IMD quintile 4,5\n"
   custom:
-    row_count: 154056
+    row_count: 154842
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/imd_distance/1_2_0#distance_map
   path: distance_map.csv
   name: distance_map
   profile: tabular-data-resource
@@ -96,7 +103,7 @@ resources:
         except for comparisons)
       constraints:
         unique: false
-      example: 0.0030655488826142
+      example: 0.0030680175666647
     - name: match
       type: number
       description: A score between 0 and 100 indicting how similar a council is (based
@@ -111,11 +118,14 @@ resources:
       constraints:
         unique: false
       example: 1.0
-  hash: 6870b4786910d035879b441f9113fc0e
+  hash: caf619dad0419709e14adc31ea8c6789
 - title: Local authority IMD profile labels
   description: A short category based on IMD profile for each local authority
   custom:
-    row_count: 394
+    row_count: 395
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/imd_distance/1_2_0#la_labels
   path: la_labels.csv
   name: la_labels
   profile: tabular-data-resource
@@ -143,11 +153,14 @@ resources:
         - 4th IMD quintile
         - 5th IMD quintile
       example: 1st IMD quintile
-  hash: eecaece9715b92c1bf66dc21d3874af4
+  hash: 3bdd4e1901e23a6fa617cfc57470fe36
 - title: Local authority IMD labels
   description: Map of short labels to longer descriptions for IMD categories.
   custom:
     row_count: 6
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/imd_distance/1_2_0#label_desc
   path: label_desc.csv
   name: label_desc
   profile: tabular-data-resource
@@ -175,13 +188,13 @@ resources:
       constraints:
         unique: true
         enum:
-        - Councils in most deprived quintile (20%)
-        - Councils in second most deprived quintile (20%)
-        - Councils in middle deprivation quintile (20%)
-        - Councils in second least deprived quintile (20%)
         - Councils in least deprived quintile (20%)
+        - Councils in middle deprivation quintile (20%)
+        - Councils in most deprived quintile (20%)
+        - Councils in second least deprived quintile (20%)
+        - Councils in second most deprived quintile (20%)
       example: Councils in least deprived quintile (20%)
   hash: 38b888ff0ae31f6e3f03ccc9b0417440
-full_version: 1.1.0
+full_version: 1.2.0
 permalink: /datasets/imd_distance/latest
 ---

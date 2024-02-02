@@ -1,0 +1,39 @@
+title: Local authority location profile labels
+description: A short category based on location profile for each local authority
+custom:
+  row_count: 395
+path: la_labels.csv
+name: la_labels
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: local-authority-code
+    type: string
+    description: 3/4 letter local authority code.
+    constraints:
+      unique: true
+    example: ABC
+  - name: label
+    type: string
+    description: Label to describe location profile of authority.
+    constraints:
+      unique: false
+      enum:
+      - East Midlands
+      - East of England
+      - London
+      - North East
+      - North West
+      - Northern Ireland
+      - Scotland
+      - South East
+      - South West
+      - Wales
+      - West Midlands
+      - Yorkshire and The Humber
+    example: East Midlands
+hash: 1b5d10a4f9cc07433529d96cc2f7dd7d

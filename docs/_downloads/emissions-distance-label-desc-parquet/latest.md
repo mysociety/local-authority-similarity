@@ -5,6 +5,6 @@ package: emissions_distance
 title: label_desc
 filename: label_desc.parquet
 version: latest
-full_version: 1.1.0
+full_version: 1.2.0
 file: /data/emissions_distance/latest/label_desc.parquet
 ---

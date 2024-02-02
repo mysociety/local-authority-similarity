@@ -45,6 +45,10 @@ custom:
     1.0.0: lock data schema
     1.1.0-futurecouncils: ''
     1.1.0: release 2023 data
+    1.2.0: 'Change in data for resource(s): distance_map,la_labels'
+  datasette:
+    about: Info & Downloads
+    about_url: https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0
   formats:
     csv: true
     parquet: true
@@ -54,7 +58,10 @@ resources:
     \ data.\nThis distance is based on:\n* Emissions profile\n* IMD profile\n* Rural-ruban\
     \ profile\n* Physical distance\n"
   custom:
-    row_count: 154056
+    row_count: 154842
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0#distance_map
   path: distance_map.csv
   name: distance_map
   profile: tabular-data-resource
@@ -82,7 +89,7 @@ resources:
         except for comparisons)
       constraints:
         unique: false
-      example: 0.6013824212265125
+      example: 0.6017390960095425
     - name: match
       type: number
       description: A score between 0 and 100 indicting how similar a council is (based
@@ -97,11 +104,14 @@ resources:
       constraints:
         unique: false
       example: 1.0
-  hash: 13e966cb95329df7e5baa37ceeea64d8
+  hash: d4e3e4faf5be7ba74eade2a06ca2c72c
 - title: Local authority composite profile labels
   description: A short category based on composite profile for each local authority
   custom:
-    row_count: 394
+    row_count: 395
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0#la_labels
   path: la_labels.csv
   name: la_labels
   profile: tabular-data-resource
@@ -124,11 +134,14 @@ resources:
         unique: false
       example: 'East Midlands; Emissions: Agriculture; 4th IMD quintile; Urban with
         rural areas'
-  hash: a35c86afb5ea3ff054334ba7b150682f
+  hash: 5c7f3fabe4c73ad429c9c5b1051988a3
 - title: Local authority composite labels
   description: Map of short labels to longer descriptions for composite categories.
   custom:
     row_count: 1441
+    datasette:
+      about: Info & Downloads
+      about_url: https://pages.mysociety.org/local_authority_similarity/datasets/composite_distance/1_2_0#label_desc
   path: label_desc.csv
   name: label_desc
   profile: tabular-data-resource
@@ -153,6 +166,6 @@ resources:
         (20%); Local authority mostly made up of urban neighbourhoods, but with a
         significant number of rural neighbourhoods
   hash: 27dae1251fbfea28220f3ac942facf13
-full_version: 1.1.0
+full_version: 1.2.0
 permalink: /datasets/composite_distance/latest
 ---
