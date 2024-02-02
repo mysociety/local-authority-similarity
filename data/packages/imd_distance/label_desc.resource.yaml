@@ -29,10 +29,10 @@ schema:
     constraints:
       unique: true
       enum:
-      - Councils in most deprived quintile (20%)
-      - Councils in second most deprived quintile (20%)
-      - Councils in middle deprivation quintile (20%)
-      - Councils in second least deprived quintile (20%)
       - Councils in least deprived quintile (20%)
+      - Councils in middle deprivation quintile (20%)
+      - Councils in most deprived quintile (20%)
+      - Councils in second least deprived quintile (20%)
+      - Councils in second most deprived quintile (20%)
     example: Councils in least deprived quintile (20%)
 hash: 38b888ff0ae31f6e3f03ccc9b0417440

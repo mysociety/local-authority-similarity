@@ -1,7 +1,7 @@
 title: Local authority composite profile labels
 description: A short category based on composite profile for each local authority
 custom:
-  row_count: 394
+  row_count: 395
 path: la_labels.csv
 name: la_labels
 profile: tabular-data-resource
@@ -24,4 +24,4 @@ schema:
       unique: false
     example: 'East Midlands; Emissions: Agriculture; 4th IMD quintile; Urban with
       rural areas'
-hash: a35c86afb5ea3ff054334ba7b150682f
+hash: 5c7f3fabe4c73ad429c9c5b1051988a3

@@ -20,6 +20,7 @@ STS,Transport/Domestic
 WSX,Urban Mainstream
 NTCA,Transport/Domestic
 NTT,Transport/Domestic
+YNYC,Transport/Domestic
 DEV,Transport/Domestic
 DBY,Transport/Domestic
 LDS,Urban Mainstream
@@ -361,7 +362,7 @@ FOE,Transport/Domestic
 RED,Urban Mainstream
 AGB,Transport/Domestic
 GOS,Urban Mainstream
-MDE,Transport/Domestic
+MDE,Agriculture
 BOS,Urban Mainstream
 FYL,Transport/Domestic
 HYN,Urban Mainstream
@@ -373,7 +374,7 @@ TAW,Urban Mainstream
 CGN,Agriculture
 DEB,Agriculture
 ROS,Transport/Domestic
-BOT,Transport/Domestic
+BOT,Urban Mainstream
 AGY,Agriculture
 BGW,Urban Mainstream
 TOR,Agriculture

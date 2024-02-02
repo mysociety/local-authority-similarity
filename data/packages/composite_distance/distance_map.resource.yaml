@@ -3,7 +3,7 @@ description: "Dataset of distance calculations based on other measures of distan
   \ data.\nThis distance is based on:\n* Emissions profile\n* IMD profile\n* Rural-ruban\
   \ profile\n* Physical distance\n"
 custom:
-  row_count: 154056
+  row_count: 154842
 path: distance_map.csv
 name: distance_map
 profile: tabular-data-resource
@@ -31,7 +31,7 @@ schema:
       for comparisons)
     constraints:
       unique: false
-    example: 0.6013824212265125
+    example: 0.6017390960095425
   - name: match
     type: number
     description: A score between 0 and 100 indicting how similar a council is (based
@@ -46,4 +46,4 @@ schema:
     constraints:
       unique: false
     example: 1.0
-hash: 13e966cb95329df7e5baa37ceeea64d8
+hash: d4e3e4faf5be7ba74eade2a06ca2c72c

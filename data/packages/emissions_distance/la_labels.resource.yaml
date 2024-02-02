@@ -1,7 +1,7 @@
 title: Local authority emissions profile labels
 description: A short category based on emissions profile for each local authority
 custom:
-  row_count: 394
+  row_count: 395
 path: la_labels.csv
 name: la_labels
 profile: tabular-data-resource
@@ -23,11 +23,11 @@ schema:
     constraints:
       unique: false
       enum:
-      - Public sector
-      - Urban Mainstream
-      - Transport/Domestic
       - Agriculture
-      - Industry/Commerical/Domestic
       - City of London
+      - Industry/Commerical/Domestic
+      - Public sector
+      - Transport/Domestic
+      - Urban Mainstream
     example: Agriculture
-hash: 7cae68d699a732f0742dac78d717cb1d
+hash: a65f860231a948495e2fc92e75422025

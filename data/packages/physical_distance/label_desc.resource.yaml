@@ -18,18 +18,18 @@ schema:
     constraints:
       unique: true
       enum:
+      - East Midlands
+      - East of England
+      - London
+      - North East
+      - North West
       - Northern Ireland
       - Scotland
       - South East
-      - Wales
-      - East Midlands
-      - East of England
       - South West
-      - North West
-      - London
+      - Wales
       - West Midlands
       - Yorkshire and The Humber
-      - North East
     example: East Midlands
   - name: desc
     type: string
@@ -37,17 +37,17 @@ schema:
     constraints:
       unique: true
       enum:
+      - Local authorities in East Midlands
+      - Local authorities in East of England
+      - Local authorities in London
+      - Local authorities in North East
+      - Local authorities in North West
       - Local authorities in Northern Ireland
       - Local authorities in Scotland
       - Local authorities in South East
-      - Local authorities in Wales
-      - Local authorities in East Midlands
-      - Local authorities in East of England
       - Local authorities in South West
-      - Local authorities in North West
-      - Local authorities in London
+      - Local authorities in Wales
       - Local authorities in West Midlands
       - Local authorities in Yorkshire and The Humber
-      - Local authorities in North East
     example: Local authorities in East Midlands
 hash: ec0f00ba967c8811f6125998467a9522
