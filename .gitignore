@@ -5,3 +5,7 @@ data/private/*
 _render/_parts
 _render/_papermills
 docs/_site
+docs/data
+docs/_datasets
+docs/_downloads
+docs/_versionlists
